@@ -12,8 +12,6 @@ tags:
 modified: 2016-05-02T11:39:01-04:00
 ---
 
-{% include base_path %}
-
 This post should display a **header with an overlay image**, if the theme supports it.
 
 Non-square images can provide some unique styling issues.
