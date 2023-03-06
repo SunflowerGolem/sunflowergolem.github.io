@@ -122,6 +122,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      classes: wide
   # _projects
   - scope:
       path: ""
