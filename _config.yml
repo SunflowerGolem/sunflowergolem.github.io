@@ -81,11 +81,11 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:your.name@email.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sunflowerGolem"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/taisiia-smirnova-narrative/"
     - label: "CV / Resume"
-      icon: "fab fa-fw fa-github"
+      icon: "fas fa-fw fa-file"
       url: "/assets/Taisiia Smirnova - Game Writer and Narrative Designer - CV.pdf"
 
 collections:
