@@ -1,6 +1,6 @@
 ---
 title: "Just-so story"
-tagline: [Guiding Star](https://docs.google.com/document/d/1by1x5B6gLjfkFEUwQ9z96Yz7iCu8OZ9TWf9YDDlMUys/edit?usp=sharing) is a just-so story about creation of the main navigational constellation in a dark fantasy setting. It shows the game writer’s work on deep lore that makes the fictional world feel more alive and believable for players.
+tagline: Guiding Star is a just-so story about creation of the main navigational constellation in a dark fantasy setting. It shows the game writer’s work on deep lore that makes the fictional world feel more alive and believable for players.
 header:
   overlay_image: /assets/images/portfolio/just-so-story.png
   teaser: /assets/images/portfolio/just-so-story.png
