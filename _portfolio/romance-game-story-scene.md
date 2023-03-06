@@ -2,6 +2,7 @@
 title: "Romance game story scene"
 header:
   overlay_image: /assets/images/portfolio/romance-game-story-thumbnail.png
+  teaser: /assets/images/portfolio/romance-game-story-thumbnail.png
 ---
 
 [The Lust for Loot](https://docs.google.com/document/d/1M9nMnLeatADSpB9KkArmdb89thCBmAlF6iluN_JXf3Q/edit?usp=sharing) - a choice-based interactive romance game writing sample in a fantasy setting. It shows game writer’s work with short diamond shape choice trees and high priority for animation economy and laconic texts.
