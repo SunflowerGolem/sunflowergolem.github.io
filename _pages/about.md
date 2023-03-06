@@ -4,6 +4,8 @@ title: "About"
 classes: wide
 ---
 
+![image-left](/assets/images/photo.png){: .align-left}
+
 Welcome to my little corner of the internet!
 
 My name is Taisiia, and I'm a narrative designer and game screenwriter. There's nothing I love more than crafting immersive, interactive stories that take players on a journey to fresh and exhilarating realms where they can experience something new and exciting. For me, the thrill of creating these stories and watching players get lost in them is the ultimate reward.
