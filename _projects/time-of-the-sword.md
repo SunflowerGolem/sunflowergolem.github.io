@@ -5,7 +5,6 @@ header:
   video:
     id: UybtxZq9Wpg
     provider: youtube
-  # overlay_image: /assets/images/projects/time-of-the-sword.png
 ---
 
 [Time of the Sword](https://timeofthesword.com/about) is an AAA story-driven combat-based action video game in a modern setting for players enjoying deep interactive narrative experience, psychological character arcs, and rich high fantasy worlds. This project is still in process.
@@ -16,7 +15,7 @@ When the otherworldly Shadows threaten to invade and slaughter all life again, F
 
 Yet, the line between good and evil blurs, a rift emerges not only amidst the realms, but among the bogatyrs. Finist has to confront his own beliefs and seek out the truth that could save the world from certain doom.
 
-{% include video id="UybtxZq9Wpg" provider="youtube" %}
+![image-left](/assets/images/projects/time-of-the-sword.png)
 
 ## What I do
 
