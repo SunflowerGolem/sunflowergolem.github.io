@@ -1,14 +1,13 @@
 ---
-title: "An Average Adventure"
+title: "Mage Tower"
+tagline: "Mage Tower is my personal video game project in the visual novel genre. This one-shot game experience lets players dive deep into a psychological thriller in a dark fantasy setting and go through neat and fully charged adventure making tough morally complicated and meaningful decisions that have a big impact on the ending."
 header:
-  overlay_image: /assets/images/projects/an-average-adventure.png
-  teaser: /assets/images/projects/an-average-adventure.png
+  overlay_image: /assets/images/projects/mage-tower.png
+  teaser: /assets/images/projects/mage-tower.png
 ---
 
-With a story tailored specifically to my players and their characters' backstories, my goal is to immerse them in a dark and compelling fantasy setting filled with challenging moral choices and shades of gray morality. From their humble beginnings to the dizzying heights of high levels, players experience a vast and interconnected web of engaging and meaningful story arcs, each one building on the last to create a truly epic tale for the ages.
+As the long-simmering conflict reaches a boiling point, the elves hatch a daring plan to strike at the heart of their enemy's power. They dispatch a team of elite fighters to infiltrate the tower of the most powerful human mage.
 
-The last remaining shred of the material plane is swaying on the brink of war. With the emperor slain, conniving politicians are maneuvering for power, forming alliances and stabbing each other in the back. Meanwhile, the impoverished masses are pointing fingers at other races for the devastating smallpox epidemic and all their misfortunes. One by one, entire villages are succumbing to the disease... only to inexplicably rise again from the dead.
+But as the elves ascend the tower, they soon discover that nothing is as it seems. Trapped within a labyrinth of illusions and mind-bending enchantments, they are forced to navigate a treacherous web of deceit and betrayal. Friendships are tested, loyalties are strained, and the line between reality and illusion blurs beyond recognition.
 
-As if that weren't enough, a demon cult has opened the gates to another plane. The undead unleash on both humans and demons, and the conflict burns with an all-devouring fire. Cities are besieged, outposts along the frontier are decimated, and the nomadic orcs of the desert are banding together in a show of force.
-
-But the greatest horror of all is yet to come: chthonic horror creatures are emerging from long-abandoned tunnels beneath the earth and a colossal eye has appeared in the sky, casting an ominous shadow over the already-devastated land.
+As they climb up into the heart of the tower, the elves realize that they do not know what is right and what is wrong anymore, and that their true enemy may be lurking closer than they imagined.
