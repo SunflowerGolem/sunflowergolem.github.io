@@ -1,11 +1,11 @@
 ---
 title: "Time of the Sword"
 header:
+  teaser: /assets/images/projects/time-of-the-sword.png
   video:
     id: UybtxZq9Wpg
     provider: youtube
   # overlay_image: /assets/images/projects/time-of-the-sword.png
-  # teaser: /assets/images/projects/time-of-the-sword.png
 ---
 
 [Time of the Sword](https://timeofthesword.com/about) is an AAA story-driven combat-based action video game in a modern setting for players enjoying deep interactive narrative experience, psychological character arcs, and rich high fantasy worlds. This project is still in process.
