@@ -7,6 +7,10 @@ header:
 
 [Sunset Secrets](https://doudougames.ru/) is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives. Unfortunately, after two years of development the project was closed for reasons beyond my control.
 
+![image-left](/assets/images/projects/sunset-secrets-image-1.jpg)
+
+_All images are used for learning purposes from open sources, all copyrights for the images belong to their respective authors._
+
 ## What I did
 
 For this project I:
