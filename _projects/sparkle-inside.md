@@ -12,7 +12,7 @@ sidebar:
     text: "TBD"
 ---
 
-[Sparkle Inside](https://taisiia.itch.io/sparkle-inside) is a hackathon project that was created in just two days by a team of non-professionals. As the producer and screenwriter of the project, I had the privilege of managing a diverse team of seven individuals from five different time zones, which was an incredible challenge in itself.
+[Sparkle Inside](https://taisiia.itch.io/sparkle-inside){:target="\_blank"} is a hackathon project that was created in just two days by a team of non-professionals. As the producer and screenwriter of the project, I had the privilege of managing a diverse team of seven individuals from five different time zones, which was an incredible challenge in itself.
 
 Despite the limitations, I am proud of what we accomplished, and I believe it serves as a testament to the power of hard work and dedication.
 

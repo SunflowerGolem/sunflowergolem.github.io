@@ -14,7 +14,7 @@ sidebar:
     text: "TBD"
 ---
 
-[Time of the Sword](https://timeofthesword.com/about) is an AAA story-driven combat-based action video game in a modern setting for players enjoying deep interactive narrative experience, psychological character arcs, and rich high fantasy worlds. This project is still in process.
+[Time of the Sword](https://timeofthesword.com/about){:target="\_blank"} is an AAA story-driven combat-based action video game in a modern setting for players enjoying deep interactive narrative experience, psychological character arcs, and rich high fantasy worlds. This project is still in process.
 
 For centuries, the battle between good and evil has raged on, with the world's fate hanging on the blade of a sword. Through it all, the ancient heroes have stood vigilant, guarding the realm from harm.
 
