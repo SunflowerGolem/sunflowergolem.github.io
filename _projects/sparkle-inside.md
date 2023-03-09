@@ -3,6 +3,13 @@ title: "Sparkle Inside"
 header:
   overlay_image: /assets/images/projects/sparkle-inside.png
   teaser: /assets/images/projects/sparkle-inside.png
+sidebar:
+  - title: "Role"
+    image: /assets/images/projects/sparkle-inside.png
+    image_alt: "logo"
+    text: "TBD"
+  - title: "Responsibilities"
+    text: "TBD"
 ---
 
 [Sparkle Inside](https://taisiia.itch.io/sparkle-inside) is a hackathon project that was created in just two days by a team of non-professionals. As the producer and screenwriter of the project, I had the privilege of managing a diverse team of seven individuals from five different time zones, which was an incredible challenge in itself.

@@ -4,6 +4,13 @@ tagline: "An Average Adventure is a personalized journey through a fully homebre
 header:
   overlay_image: /assets/images/projects/an-average-adventure.png
   teaser: /assets/images/projects/an-average-adventure.png
+sidebar:
+  - title: "Role"
+    image: /assets/images/projects/an-average-adventure.png
+    image_alt: "logo"
+    text: "TBD"
+  - title: "Responsibilities"
+    text: "TBD"
 ---
 
 The last remaining shred of the material plane is swaying on the brink of war. With the emperor slain, conniving politicians are maneuvering for power, forming alliances and stabbing each other in the back. Meanwhile, the impoverished masses are pointing fingers at other races for the devastating smallpox epidemic and all their misfortunes. One by one, entire villages are succumbing to the disease... only to inexplicably rise again from the dead.

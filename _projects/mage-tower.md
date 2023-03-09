@@ -4,6 +4,13 @@ tagline: "Mage Tower is my personal video game project in the visual novel genre
 header:
   overlay_image: /assets/images/projects/mage-tower.png
   teaser: /assets/images/projects/mage-tower.png
+sidebar:
+  - title: "Role"
+    image: /assets/images/projects/mage-tower.png
+    image_alt: "logo"
+    text: "TBD"
+  - title: "Responsibilities"
+    text: "TBD"
 ---
 
 As the long-simmering conflict reaches a boiling point, the elves hatch a daring plan to strike at the heart of their enemy's power. They dispatch a team of elite fighters to infiltrate the tower of the most powerful human mage.

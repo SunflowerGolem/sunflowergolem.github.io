@@ -5,6 +5,13 @@ header:
     id: knNLMfDK89U
     provider: youtube
   teaser: /assets/images/projects/design-masters.png
+sidebar:
+  - title: "Role"
+    image: /assets/images/projects/design-masters.png
+    image_alt: "logo"
+    text: "TBD"
+  - title: "Responsibilities"
+    text: "TBD"
 ---
 
 [Design Masters](https://play.google.com/store/apps/details?id=com.playgendary.homes) is a popular mobile game that combines match-3 gameplay with elements of interior design and decoration. With over 2 million uploads and a rating of 4.2 stars, it has garnered a loyal following among players who enjoy the challenge of solving puzzles while also exploring their creativity in home design. Design Masters also features a captivating story that unfolds as you progress through the game. You'll encounter a cast of characters, each with their own personality and story, as you work to help them achieve their dream home designs. This adds an extra layer of depth to the game and keeps players engaged and invested in the outcome.
