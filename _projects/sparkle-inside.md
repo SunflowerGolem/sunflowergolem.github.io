@@ -5,8 +5,6 @@ header:
   teaser: /assets/images/projects/sparkle-inside.png
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/sparkle-inside.png
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"

@@ -6,8 +6,6 @@ header:
   teaser: /assets/images/projects/kids-learning-tailcrafts.png
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/kids-learning-tailcrafts.png
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"

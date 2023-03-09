@@ -7,8 +7,6 @@ header:
     provider: youtube
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/time-of-the-sword.png
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"

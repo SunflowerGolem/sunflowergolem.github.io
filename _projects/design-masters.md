@@ -7,8 +7,6 @@ header:
   teaser: /assets/images/projects/design-masters.png
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/design-masters.png
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"

@@ -5,8 +5,6 @@ header:
   teaser: /assets/images/projects/sunset-secrets-image-1.jpg
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/sunset-secrets-image-1.jpg
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"

@@ -6,8 +6,6 @@ header:
   teaser: /assets/images/projects/mage-tower.png
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/mage-tower.png
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"

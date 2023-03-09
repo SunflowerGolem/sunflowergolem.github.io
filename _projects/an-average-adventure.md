@@ -6,8 +6,6 @@ header:
   teaser: /assets/images/projects/an-average-adventure.png
 sidebar:
   - title: "Role"
-    image: /assets/images/projects/an-average-adventure.png
-    image_alt: "logo"
     text: "TBD"
   - title: "Responsibilities"
     text: "TBD"
