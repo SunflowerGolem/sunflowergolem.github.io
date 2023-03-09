@@ -73,6 +73,9 @@ author:
     - label: "CV / Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/Taisiia Smirnova - Game Writer and Narrative Designer - CV.pdf"
+    - label: "Hire Me"
+      icon: "fas fa-fw fa-link"
+      url: "/hire-me"
 
 footer:
   links:
@@ -85,6 +88,9 @@ footer:
     - label: "CV / Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/Taisiia Smirnova - Game Writer and Narrative Designer - CV.pdf"
+    - label: "Hire Me"
+      icon: "fas fa-fw fa-link"
+      url: "/hire-me"
 
 collections:
   portfolio:
