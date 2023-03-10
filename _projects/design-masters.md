@@ -9,7 +9,7 @@ sidebar:
   - title: "Role"
     text: "Game writer"
   - title: "Downloads"
-    text: "5M+"
+    text: "More than 5,000,000"
   - title: "Reviews"
     text: "28K reviews, 4.2⭐"
   - title: "Story genre"
