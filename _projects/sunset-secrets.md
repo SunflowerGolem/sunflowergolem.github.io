@@ -1,7 +1,7 @@
 ---
 title: "Sunset Secrets"
 header:
-  overlay_image: /assets/images/projects/sunset-secrets.png
+  overlay_image: /assets/images/projects/sunset-secrets.jpg
   teaser: /assets/images/projects/sunset-secrets-image-1.jpg
 sidebar:
   - title: "Role"
@@ -14,11 +14,15 @@ sidebar:
     text: "women 35+"
 ---
 
-[Sunset Secrets](https://doudougames.ru/){:target="\_blank"} is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives. Unfortunately, after two years of development the project was closed for reasons beyond my control.
+[Sunset Secrets](https://play.google.com/store/apps/details?id=com.PuzzlePoint.SunsetSecrets){:target="\_blank"} is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives.
 
 ![image-left](/assets/images/projects/sunset-secrets-image-1.jpg)
 
 _All images are used for learning purposes from open sources, all copyrights for the images belong to their respective authors._
+
+## Gameplay
+
+{% include video id="HceBiBUA_e0" provider="youtube" %}
 
 ## What I did
 
