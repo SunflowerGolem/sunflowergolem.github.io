@@ -11,6 +11,8 @@ sidebar:
     text: "thriller, adventure, fantasy"
   - title: "Core mechanic"
     text: "DnD system"
+  - title: "Platform"
+    text: "TTRPG"
 ---
 
 The last remaining shred of the material plane is swaying on the brink of war. With the emperor slain, conniving politicians are maneuvering for power, forming alliances and stabbing each other in the back. Meanwhile, the impoverished masses are pointing fingers at other races for the devastating smallpox epidemic and all their misfortunes. One by one, entire villages are succumbing to the disease... only to inexplicably rise again from the dead.

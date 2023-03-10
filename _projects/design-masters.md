@@ -16,6 +16,8 @@ sidebar:
     text: "slice of life, comedy, romance"
   - title: "Core mechanic"
     text: "match-3"
+  - title: "Platform"
+    text: "Mobile"
   - title: "Target audience"
     text: "women 35+"
 ---

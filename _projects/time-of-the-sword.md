@@ -12,6 +12,8 @@ sidebar:
     text: "thriller, adventure"
   - title: "Core mechanic"
     text: "slasher"
+  - title: "Platform"
+    text: "PC, Console"
   - title: "Target audience"
     text: "Men 21+"
 ---
