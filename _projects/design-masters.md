@@ -8,6 +8,10 @@ header:
 sidebar:
   - title: "Role"
     text: "Game writer"
+  - title: "Downloads"
+    text: "5M+"
+  - title: "Reviews"
+    text: "28K reviews, 4.2⭐"
   - title: "Story genre"
     text: "slice of life, comedy, romance"
   - title: "Core mechanic"
