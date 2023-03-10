@@ -8,7 +8,7 @@ sidebar:
   - title: "Role"
     text: "Solo game developer"
   - title: "Story genre"
-    text: "thriller, adventure, fantasy"
+    text: "Thriller, adventure, fantasy"
   - title: "Core mechanic"
     text: "DnD system"
   - title: "Platform"

@@ -8,9 +8,9 @@ sidebar:
   - title: "Role"
     text: "Solo game developer"
   - title: "Story genre"
-    text: "dark fantasy, psychology thriller"
+    text: "Dark fantasy, psychology thriller"
   - title: "Core mechanic"
-    text: "visual novel"
+    text: "Visual novel"
 ---
 
 As the long-simmering conflict reaches a boiling point, the elves hatch a daring plan to strike at the heart of their enemy's power. They dispatch a team of elite fighters to infiltrate the tower of the most powerful human mage.

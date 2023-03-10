@@ -7,13 +7,13 @@ sidebar:
   - title: "Role"
     text: "Solo screenwriter and narrative designer"
   - title: "Story genre"
-    text: "detective, comedy, romance"
+    text: "Detective, comedy, romance"
   - title: "Core mechanic"
-    text: "match-3"
+    text: "Match-3"
   - title: "Platform"
     text: "Mobile"
   - title: "Target audience"
-    text: "women 35+"
+    text: "Women 35+"
 ---
 
 [Sunset Secrets](https://play.google.com/store/apps/details?id=com.PuzzlePoint.SunsetSecrets){:target="\_blank"} is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives.
