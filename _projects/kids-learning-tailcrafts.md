@@ -6,9 +6,9 @@ header:
   teaser: /assets/images/projects/kids-learning-tailcrafts.png
 sidebar:
   - title: "Role"
-    text: "TBD"
-  - title: "Responsibilities"
-    text: "TBD"
+    text: "Sole tutor"
+  - title: "Target audience"
+    text: "Kids 8-10 y.o."
 ---
 
 Kids Learning Talecrafts is a personalized storytelling and game development course for kids aged 8-10 years. This course is designed to help children unleash their creativity and build confidence in their storytelling skills. Through a series of fun and engaging activities, students learn all exciting steps to create their own game.

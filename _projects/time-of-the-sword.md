@@ -7,9 +7,13 @@ header:
     provider: youtube
 sidebar:
   - title: "Role"
-    text: "TBD"
-  - title: "Responsibilities"
-    text: "TBD"
+    text: "Solo screenwriter and narrative designer"
+  - title: "Story genre"
+    text: "thriller, adventure"
+  - title: "Core mechanic"
+    text: "slasher"
+  - title: "Target audience"
+    text: "Men 21+"
 ---
 
 [Time of the Sword](https://timeofthesword.com/about){:target="\_blank"} is an AAA story-driven combat-based action video game in a modern setting for players enjoying deep interactive narrative experience, psychological character arcs, and rich high fantasy worlds. This project is still in process.

@@ -6,20 +6,12 @@ header:
 sidebar:
   - title: "Role"
     text: "Solo screenwriter and narrative designer"
-  - title: "Narrative role"
-    text: "story-driven game"
   - title: "Story genre"
     text: "detective, comedy, romance"
   - title: "Core mechanic"
     text: "match-3"
-  - title: "Platform"
-    text: "mobile"
   - title: "Target audience"
     text: "women 35+"
-  - title: "My gems"
-    text: "Yogurt the parrot’s jokes, narrative puzzles"
-  - title: "My pet peeve"
-    text: "combining decorating with detective"
 ---
 
 [Sunset Secrets](https://doudougames.ru/){:target="\_blank"} is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives. Unfortunately, after two years of development the project was closed for reasons beyond my control.

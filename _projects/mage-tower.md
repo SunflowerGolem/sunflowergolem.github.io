@@ -6,9 +6,11 @@ header:
   teaser: /assets/images/projects/mage-tower.png
 sidebar:
   - title: "Role"
-    text: "TBD"
-  - title: "Responsibilities"
-    text: "TBD"
+    text: "Solo game developer"
+  - title: "Story genre"
+    text: "dark fantasy, psychology thriller"
+  - title: "Core mechanic"
+    text: "visual novel"
 ---
 
 As the long-simmering conflict reaches a boiling point, the elves hatch a daring plan to strike at the heart of their enemy's power. They dispatch a team of elite fighters to infiltrate the tower of the most powerful human mage.
