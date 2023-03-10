@@ -129,7 +129,6 @@ defaults:
       author_profile: true
       share: true
       classes: wide
-      show_date: false
   # _projects
   - scope:
       path: ""
@@ -139,7 +138,6 @@ defaults:
       author_profile: false
       share: true
       classes: wide
-      show_date: false
 
 category_archive:
   type: liquid
