@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: TaisTalecraft
-email:
+email: taisiia.narrative@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Taisiia Smirnova - I’m a narrative designer and game screenwriter and I love it ❤️
 twitter_username: username
-github_username: username
+github_username: sunflowergolem
 minimal_mistakes_skin: default
 search: true
 teaser: /assets/images/500x300.png
