@@ -1,6 +1,6 @@
 ---
-title: "Kids Learning Tailcrafts"
-tagline: "Kids Learning Talecrafts is a personalized storytelling and game development course for kids aged 8-10 years. This course is designed to help children unleash their creativity and build confidence in their storytelling skills. Through a series of fun and engaging activities, students learn all exciting steps to create their own game."
+title: "Kids Learning Talecrafts"
+tagline: "Kids Learning Talecrafts is a personalized storytelling and game development course for kids from 8 to 10. This course is designed to help children unleash their creativity and build confidence in their storytelling skills. Through a series of fun and engaging activities, students learn all of the exciting steps to create their own game."
 header:
   overlay_image: /assets/images/projects/kids-learning-tailcrafts.png
   teaser: /assets/images/projects/kids-learning-tailcrafts.png
@@ -8,12 +8,11 @@ sidebar:
   - title: "Role"
     text: "Sole tutor"
   - title: "Target audience"
-    text: "Kids 8-10 y.o."
+    text: "Kids 8-10 years old"
 ---
 
-Kids Learning Talecrafts is a personalized storytelling and game development course for kids aged 8-10 years. This course is designed to help children unleash their creativity and build confidence in their storytelling skills. Through a series of fun and engaging activities, students learn all exciting steps to create their own game.
 
-At the heart of this course is the belief that every child has a creative sparkle that is worth carefully fanning the fire. I want to help kids recognize and nurture their unique gifts, and give them the tools and support they need to bring their ideas to life. By the end of this course, kids gain valuable experience in creative expression and storytelling, and will have a deeper appreciation for the power of their own ideas.
+At the heart of this course is the belief that every child has a creative spark that is worth carefully fanning the flames. I want to help kids recognize and nurture their unique gifts, and give them the tools and support they need to bring their ideas to life. By the end of this course, kids gain valuable experience in creative expression and storytelling, and will have a deeper appreciation for the power of their own ideas.
 
 ![image-left](/assets/images/projects/kids-learning-tailcrafts-image-1.png)
 ![image-left](/assets/images/projects/kids-learning-tailcrafts-image-2.png)
