@@ -15,7 +15,7 @@ sidebar:
     text: "TTRPG"
 ---
 
-The last remaining shred of the material plane is swaying on the brink of war. With the emperor slain, conniving politicians are maneuvering for power, forming alliances and stabbing each other in the back. Meanwhile, the impoverished masses are pointing fingers at other races for the devastating smallpox epidemic and all their misfortunes. One by one, entire villages are succumbing to the disease... only to inexplicably rise again from the dead.
+The last remaining shred of the material plane is teetering on the brink of war. With the emperor slain, conniving politicians are maneuvering for power, forming alliances and stabbing each other in the back. Meanwhile, the impoverished masses are pointing fingers at other races for the devastating smallpox epidemic and all their misfortunes. One by one, entire villages are succumbing to the disease... only to inexplicably rise again from the dead.
 
 As if that weren't enough, a demon cult has opened the gates to another plane. The undead unleash on both humans and demons, and the conflict burns with an all-devouring fire. Cities are besieged, outposts along the frontier are decimated, and the nomadic orcs of the desert are banding together in a show of force.
 
