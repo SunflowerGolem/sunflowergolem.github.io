@@ -28,13 +28,13 @@ Here are the slides for our first lesson for introduction and unleashing kids' i
 ![image-left](/assets/images/projects/kids-learning-tailcrafts-image-10.png)
 
 Here are the slides for one of the next lessons with the introduction of the game mechanics topic:
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide1.png)
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide2.png)
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide3.png)
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide4.png)
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide5.png)
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide6.png)
-![image-left](assets/images/projects/Kids-learning-narrative-lesson-2/Slide7.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide1.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide2.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide3.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide4.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide5.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide6.png)
+![image-left](/assets/images/projects/Kids-learning-narrative-lesson-2/Slide7.png)
 
 
 _All images used in slides are copied from open sources and used only for learning purposes, all copyrights for the images belong to their respective authors._
