@@ -15,7 +15,7 @@ sidebar:
     text: "Visual novel"
 ---
 
-![image-left](/assets/images/projects/mage-tower.jpg)
+![image-left](/assets/images/projects/mage-tower.png)
 
 ## Story
 
