@@ -7,7 +7,7 @@ header:
 sidebar:
   - title: "Role"
     text: "Writer, game designer, project manager"
- - title: "Engines"
+  - title: "Engines"
     text: "Unreal, Articy: Draft 3"
   - title: "Story genre"
     text: "Dark fantasy, psychology thriller"
