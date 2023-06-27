@@ -6,15 +6,35 @@ header:
   teaser: /assets/images/projects/mage-tower.png
 sidebar:
   - title: "Role"
-    text: "Solo game developer"
+    text: "Writer, game designer, project manager"
+ - title: "Engines"
+    text: "Unreal, Articy: Draft 3"
   - title: "Story genre"
     text: "Dark fantasy, psychology thriller"
   - title: "Core mechanic"
     text: "Visual novel"
 ---
 
-As the long-simmering conflict reaches a boiling point, the elves hatch a daring plan to strike at the heart of their enemy's power. They dispatch a team of elite fighters to infiltrate the tower of the most powerful human mage.
+![image-left](/assets/images/projects/mage-tower.jpg)
 
-But as the elves ascend the tower, they soon discover that nothing is as it seems. Trapped within a labyrinth of illusions and mind-bending enchantments, they are forced to navigate a treacherous web of deceit and betrayal. Friendships are tested, loyalties are strained, and the line between reality and illusion blurs beyond recognition.
+## Story
 
-As they climb up into the heart of the tower, the elves realize that they do not know what is right and what is wrong anymore, and that their true enemy may be lurking closer than they imagined.
+The material plane has become entwined with the intangible, giving rise to both: wonders of magic and horrors of blight. An ancient magic tower is a sacred place, but the source of the blight is right at its spire, corrupting everything around. Guiding your small but skilled squad you should make it through all the levels to the very top of the tower and defeat the grand mage.
+
+Or, at least, that's what you think.
+
+## Gameplay
+
+{% include video id="_RqZ7LJ30-k" provider="youtube" %}
+
+Player's resourses are limited, and they will have to make difficult choises, trying not only to overcome but even to make it through alive.
+
+As it is shown in the video, the full gameplay time is about 15-20 minutes.
+
+## Game development
+
+{% include video id="O2NasB3Dinc" provider="youtube" %}
+
+The video shows the inside of the project made in Articy: Draft 3.
+
+
