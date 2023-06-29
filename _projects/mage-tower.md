@@ -23,7 +23,7 @@ Amidst the encroaching darkness, this project guides a player through the depths
 
 ## Story
 
-In a realm where the material and intangible intertwine, the fabric of existence weaves together both wondrous magic and harrowing blight. Within the hallowed halls of an ancient Mage Tower, a sacred sanctuary tainted by the malevolence that emanates from its spire, your path unfolds. Leading a small yet formidable squad, your mission is to ascend the tower's treacherous levels, confronting the grand mage believed to be the source of this corruption.
+In a realm where the material and intangible intertwine, the fabric of existence weaves together both wondrous magic and harrowing blight. Within the hallowed halls of an ancient Mage Tower, a sacred sanctuary tainted by the malevolence that emanates from its spire, your path unfolds. Leading a small yet formidable squad, your mission is to ascend the tower's treacherous levels, confronting the grand mage himself who believed to be the source of this corruption.
 
 Embark on a perilous quest where the lines between good and evil blur, where the pursuit of truth intertwines with the pursuit of power. Will you uncover the secrets that lie hidden within the tower's depths, or will you succumb to the unforeseen trials that await?
 
@@ -31,9 +31,15 @@ Embark on a perilous quest where the lines between good and evil blur, where the
 
 {% include video id="_RqZ7LJ30-k" provider="youtube" %}
 
-Player's resourses are limited, and they will have to make difficult choises, trying not only to overcome but even to make it through alive.
+At the heart of this game lies a captivating fusion of moral dilemmas and resource management. Unlike traditional visual novels, this project offers a multi-layered experience akin to classic RPGs, where each floor of the tower presents unique challenge to conquer. With a variety of options available to overcome these obstacles, your choices determine the subsequent paths and possibilities, based on the allocation of your expended and remaining stats.
 
-As it is shown in the video, the full gameplay time is about 15-20 minutes.
+The game features six key stats: HP for all three main characters, Mana for two characters, and a hidden time stat. While the characters acknowledge their limited time, both they and the players remain uncertain about how much they can endure before reaching an ending where time runs out.
+
+The decisions you make will have profound consequences, including the potential loss of companions as their HP dwindles, depriving you of their associated options for overcoming obstacles. The protagonist's survival is also crucial, as their demise leads to a somber conclusion for the story.
+
+However, player choices extend beyond stat distribution alone; they also encompass moral considerations. For example, in very beginning, you find the disciples of the grand mage, teetering on the edge of death. Saving resources means accepting their fate, while alternative options involve either granting them mercy by ending their suffering or attempting to heal them. Yet, choosing to help them depletes your precious mana, which may prove insufficient for future challenges.
+
+Each decision carries significant weight, pushing you to examine your values and carefully manage resources throughout the game. These choices ultimately lead to one of the five distinct endings, with the entire gameplay experience spanning approximately 15-20 minutes.
 
 ## Game development
 
