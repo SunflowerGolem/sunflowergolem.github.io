@@ -33,7 +33,7 @@ Embark on a perilous quest where the lines between good and evil blur, where the
 
 At the heart of this game lies a captivating fusion of moral dilemmas and resource management. Unlike traditional visual novels, this project offers a multi-layered experience akin to classic RPGs, where each floor of the tower presents unique challenge to conquer. With a variety of options available to overcome these obstacles, your choices determine the subsequent paths and possibilities, based on the allocation of your expended and remaining stats.
 
-The game features six key stats: HP for all three main characters, Mana for two characters, and a hidden time stat. While the characters acknowledge their limited time, both they and the players remain uncertain about how much they can endure before reaching an ending where time runs out.
+The game features six key stats: HP for all three main characters, Mana for two characters, and a hidden time stat.
 
 The decisions you make will have profound consequences, including the potential loss of companions as their HP dwindles, depriving you of their associated options for overcoming obstacles. The protagonist's survival is also crucial, as their demise leads to a somber conclusion for the story.
 
@@ -45,6 +45,8 @@ Each decision carries significant weight, pushing you to examine your values and
 
 {% include video id="O2NasB3Dinc" provider="youtube" %}
 
-The video shows the inside of the project made in Articy: Draft 3.
+I made this game using Articy: Draft 3 engine for writing game logic, connections and all text, and then exporting the project to Unreal engine.
+
+I also used various tools and apps in my game dev prosess.
 
 
