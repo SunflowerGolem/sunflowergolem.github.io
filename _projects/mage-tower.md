@@ -17,7 +17,7 @@ sidebar:
 
 In a world engulfed in shadows, this project embarks on a profound exploration of resilience and unwavering determination. It is a testament to the indomitable spirit, revealing the unyielding will to persevere in the face of insurmountable odds.
 
-Amidst the encroaching darkness, this project guides a player through the depths of despair, illuminating the flicker of hope that resides within. It is a reminder that even in the bleakest moments, surrender is never an option .
+Amidst the encroaching darkness, this project guides a player through the depths of despair, illuminating the flicker of hope that resides within. It is a reminder that even in the bleakest moments, surrender is never an option.
 
 ![image-left](/assets/images/projects/mage-tower.png)
 
