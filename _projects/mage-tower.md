@@ -15,13 +15,17 @@ sidebar:
     text: "Visual novel"
 ---
 
+In a world engulfed in shadows, this project embarks on a profound exploration of resilience and unwavering determination. It is a testament to the indomitable spirit, revealing the unyielding will to persevere in the face of insurmountable odds.
+
+Amidst the encroaching darkness, this project guides a player through the depths of despair, illuminating the flicker of hope that resides within. It is a reminder that even in the bleakest moments, surrender is never an option.
+
 ![image-left](/assets/images/projects/mage-tower.png)
 
 ## Story
 
-The material plane has become entwined with the intangible, giving rise to both: wonders of magic and horrors of blight. An ancient magic tower is a sacred place, but the source of the blight is right at its spire, corrupting everything around. Guiding your small but skilled squad you should make it through all the levels to the very top of the tower and defeat the grand mage.
+In a realm where the material and intangible intertwine, the fabric of existence weaves together both wondrous magic and harrowing blight. Within the hallowed halls of an ancient Mage Tower, a sacred sanctuary tainted by the malevolence that emanates from its spire, your path unfolds. Leading a small yet formidable squad, your mission is to ascend the tower's treacherous levels, confronting the grand mage believed to be the source of this corruption.
 
-Or, at least, that's what you think.
+Embark on a perilous quest where the lines between good and evil blur, where the pursuit of truth intertwines with the pursuit of power. Will you uncover the secrets that lie hidden within the tower's depths, or will you succumb to the unforeseen trials that await?
 
 ## Gameplay
 
