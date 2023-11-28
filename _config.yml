@@ -58,6 +58,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: G-B14W04NZW0
+
 author:
   name: "Taisiia Smirnova"
   avatar: "/assets/images/avatar.png"
