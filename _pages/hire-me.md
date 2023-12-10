@@ -1,7 +1,8 @@
 ---
 permalink: /hire-me/
-title: "Hire Me"
+title: "Hire Me - TaisTalecrafts"
 classes: wide
+description: "Crafting compelling narratives and game worlds. Hire me for captivating narratives and game development expertise. Let's bring your project to life!"
 ---
 
 Looking for someone to design a compelling narrative or create an engaging story for your project? I'm only a message away so you can _**hire me**_.
