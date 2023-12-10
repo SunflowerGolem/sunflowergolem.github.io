@@ -2,6 +2,7 @@
 permalink: /about/
 title: "About"
 classes: wide
+description: "Explore immersive game narratives with Taisiia—narrative designer, game screenwriter, and storyteller. Join me in crafting immersive stories and games."
 ---
 
 ![image-left](/assets/images/photo.png){: .align-left} Welcome to my little corner of the internet!
