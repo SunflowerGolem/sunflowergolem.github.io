@@ -63,7 +63,7 @@ plugins:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: G-B14W04NZW0
+    tracking_id: G-HRPJESLD7J
 
 author:
   name: "Taisiia Smirnova"
