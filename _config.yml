@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Narrative Designer & Game Writer - TaisTalecraft
+title_separator: "-"
 email: taisiia.narrative@gmail.com
 url: https://taistalecrafts.com
 description: >- # this means to ignore newlines until "baseurl:"
