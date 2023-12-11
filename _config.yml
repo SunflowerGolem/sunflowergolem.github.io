@@ -100,7 +100,7 @@ footer:
       url: "/hire-me"
 
 collections:
-  portfolio:
+  writing-portfolio:
     output: true
     permalink: /:collection/:path/
   published-games:
@@ -127,10 +127,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _portfolio
+  # _writing-portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: writing-portfolio
     values:
       layout: single
       author_profile: true
