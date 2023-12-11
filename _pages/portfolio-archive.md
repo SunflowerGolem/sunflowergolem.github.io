@@ -1,9 +1,9 @@
 ---
-title: "Portfolio - TaisTalecrafts"
+title: "Writing Portfolio - TaisTalecrafts"
 layout: collection
-permalink: /portfolio/
+permalink: /writing-portoflio/
 collection: portfolio
 entries_layout: grid
 classes: wide
-description: "Dive into my game writing portfolio—a showcase of captivating game stories crafted with passion and expertise"
+description: "Dive into my game writing portfolio — a showcase of captivating game stories crafted with passion and expertise"
 ---

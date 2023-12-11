@@ -1,7 +1,7 @@
 ---
-title: "Projects - TaisTalecrafts"
+title: "Published Games - TaisTalecrafts"
 layout: collection
-permalink: /projects/
+permalink: /published-games/
 collection: projects
 entries_layout: grid
 classes: wide
