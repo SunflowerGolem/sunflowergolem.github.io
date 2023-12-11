@@ -1,7 +1,7 @@
 ---
 title: "Writing Portfolio - TaisTalecrafts"
 layout: collection
-permalink: /writing-portoflio/
+permalink: /writing-portfolio/
 collection: portfolio
 entries_layout: grid
 classes: wide

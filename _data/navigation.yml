@@ -1,8 +1,8 @@
 main:
-  - title: "Projects"
-    url: /projects/
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Published Games"
+    url: /published-games/
+  - title: "Writing Portfolio"
+    url: /writing-portfolio/
   - title: "CV / Resume"
     url: "/assets/Taisiia Smirnova - Game Writer and Narrative Designer - CV.pdf"
   - title: "Hire Me 🧚🏻"
