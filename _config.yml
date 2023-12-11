@@ -103,7 +103,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  projects:
+  published-games:
     output: true
     permalink: /:collection/:path/
 
@@ -136,10 +136,10 @@ defaults:
       author_profile: true
       share: true
       classes: wide
-  # _projects
+  # _published-games
   - scope:
       path: ""
-      type: projects
+      type: published-games
     values:
       layout: single
       author_profile: false
