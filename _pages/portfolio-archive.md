@@ -1,5 +1,5 @@
 ---
-title: "Writing Portfolio - TaisTalecrafts"
+title: "Writing Portfolio"
 layout: collection
 permalink: /writing-portfolio/
 collection: portfolio

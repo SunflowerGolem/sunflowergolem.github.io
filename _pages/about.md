@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Me - TaisTalecrafts"
+title: "About Me"
 classes: wide
 description: "Explore immersive game narratives with Taisiia—narrative designer, game screenwriter, and storyteller. Join me in crafting immersive stories and games."
 ---

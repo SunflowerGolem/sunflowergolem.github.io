@@ -1,5 +1,5 @@
 ---
-title: "Published Games - TaisTalecrafts"
+title: "Published Games"
 layout: collection
 permalink: /published-games/
 collection: projects

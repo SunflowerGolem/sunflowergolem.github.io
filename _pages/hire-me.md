@@ -1,6 +1,6 @@
 ---
 permalink: /hire-me/
-title: "Hire Me - TaisTalecrafts"
+title: "Hire Me"
 classes: wide
 description: "Crafting compelling narratives and game worlds. Hire me for captivating narratives and game development expertise. Let's bring your project to life!"
 ---
