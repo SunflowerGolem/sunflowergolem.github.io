@@ -2,8 +2,8 @@
 title: "An Average Adventure"
 tagline: "An Average Adventure is a personalized journey through a fully homebrewed world in a one-of-a-kind tabletop role-playing game campaign. With a story tailored specifically to my players and their characters' backstories, my goal is to immerse them in a dark and compelling fantasy setting filled with challenging moral choices and shades of gray morality. From their humble beginnings to the dizzying heights of high levels, players experience a vast and interconnected web of engaging and meaningful story arcs, each one building on the last to create a truly epic tale for the ages."
 header:
-  overlay_image: /assets/images/projects/an-average-adventure.png
-  teaser: /assets/images/projects/an-average-adventure.png
+  overlay_image: /assets/images/projects/demons_against_undead.png
+  teaser: /assets/images/projects/demons_against_undead.png
 sidebar:
   - title: "Role"
     text: "Solo game developer"
