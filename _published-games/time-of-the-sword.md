@@ -1,13 +1,13 @@
 ---
 title: "Time of the Sword"
 header:
-  teaser: /assets/images/projects/time-of-the-sword.png
+  teaser: /assets/images/projects/time-of-the-sword-cover.png
   video:
     id: UybtxZq9Wpg
     provider: youtube
 sidebar:
   - title: "Role"
-    text: "Solo screenwriter and narrative designer"
+    text: "Solo game writer and narrative designer"
   - title: "Story genre"
     text: "Thriller, adventure"
   - title: "Core mechanic"
