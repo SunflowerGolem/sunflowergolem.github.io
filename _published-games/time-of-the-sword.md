@@ -26,7 +26,7 @@ When the otherworldly Shadows threaten to invade and slaughter all life again, F
 
 Yet, the line between good and evil blurs, a rift emerges not only amidst the realms, but among the bogatyrs. Finist has to confront his own beliefs and seek out the truth that could save the world from certain doom.
 
-![image-left](/assets/images/projects/time-of-the-sword.png)
+![image-left](/assets/images/projects/time-of-the-sword-cover.png)
 
 ## What I do
 
