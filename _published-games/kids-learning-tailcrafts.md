@@ -2,8 +2,8 @@
 title: "Kids Learning Talecrafts"
 tagline: "Kids Learning Talecrafts is a personalized storytelling and game development course for kids from 8 to 10. This course is designed to help children unleash their creativity and build confidence in their storytelling skills. Through a series of fun and engaging activities, students learn all of the exciting steps to create their own game."
 header:
-  overlay_image: /assets/images/projects/kids-learning-tailcrafts.png
-  teaser: /assets/images/projects/kids-learning-tailcrafts.png
+  overlay_image: /assets/images/projects/kids-learning-tailcrafts-new.png
+  teaser: /assets/images/projects/kids-learning-tailcrafts-new.png
 sidebar:
   - title: "Role"
     text: "Sole tutor"
