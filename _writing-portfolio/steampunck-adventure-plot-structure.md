@@ -1,6 +1,6 @@
 ---
 title: "Steampunk adventure game plot structure"
-excerpt: "This piece showcases the writer's work with outline and synopsis, employing such techniques as the three-act structure and the hero's journey for game plots."
+excerpt: "This piece showcases the writer's work with outline and synopsis, employing such techniques as the three-act structure and the hero's journey for game plots"
 header:
   overlay_image: /assets/images/portfolio/Steampunk_City.png
   teaser: /assets/images/portfolio/Steampunk_City.png

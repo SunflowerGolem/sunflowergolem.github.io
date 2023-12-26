@@ -1,6 +1,6 @@
 ---
 title: "Fun story video scene"
-excerpt: "This piece showcases the writer's work with dialogues and character tones in light comedy and drama genres."
+excerpt: "This piece showcases the writer's work with dialogues and character tones in light comedy and drama genres"
 header:
   overlay_image: /assets/images/portfolio/fun-story-video-scene.png
   teaser: /assets/images/portfolio/fun-story-video-scene.png

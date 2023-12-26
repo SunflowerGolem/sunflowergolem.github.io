@@ -1,6 +1,6 @@
 ---
 title: "Action video game cinematic script sample"
-excerpt: "This piece showcases the writer's work with screenplay format, dialogue composition, and character portrayal."
+excerpt: "This piece showcases the writer's work with screenplay format, dialogue composition, and character portrayal"
 header:
   overlay_image: /assets/images/portfolio/action-video-game-cinematic-script.png
   teaser: /assets/images/portfolio/action-video-game-cinematic-script.png

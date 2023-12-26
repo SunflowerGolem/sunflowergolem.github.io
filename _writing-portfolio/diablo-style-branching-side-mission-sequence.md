@@ -1,6 +1,6 @@
 ---
 title: "Diablo 4 style branching side mission sequence"
-excerpt: "This piece showcases the writer's work with branching narrative that emphasizes combat and exploration gameplay within dark fantasy setting."
+excerpt: "This piece showcases the writer's work with branching narrative that emphasizes combat and exploration gameplay within dark fantasy setting"
 header:
   overlay_image: /assets/images/portfolio/Diablo_4_style_game.png
   teaser: /assets/images/portfolio/Diablo_4_style_game.png
