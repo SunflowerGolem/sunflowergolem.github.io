@@ -1,5 +1,6 @@
 ---
 title: "Dwarf bard backstory"
+excerpt: "This piece showcases the writer's work with foundation for a character in tabletop role-playing games like DnD."
 header:
   overlay_image: /assets/images/portfolio/dwarf_bard_character.png
   teaser: /assets/images/portfolio/dwarf_bard_character.png

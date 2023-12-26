@@ -1,10 +1,6 @@
 ---
 title: "Time of the Sword"
-excerpt: "Role: Solo game writer and narrative designer
-Story genre: Thriller, adventure
-Core mechanic: Slasher
-Platform: PC, Console
-Target audience: Men 21+"
+excerpt: "A PC and console slasher / action adventure game in thriller genre"
 header:
   overlay_image: /assets/images/projects/time-of-the-sword-cover.jpg
   teaser: /assets/images/projects/time-of-the-sword-cover.jpg

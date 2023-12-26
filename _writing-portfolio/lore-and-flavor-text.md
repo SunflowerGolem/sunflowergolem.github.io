@@ -1,5 +1,6 @@
 ---
 title: "Lore and flavor text"
+excerpt: "This piece showcases the writer's work with laconic flawor texts."
 header:
   overlay_image: /assets/images/portfolio/lore-and-flavor-text.png
   teaser: /assets/images/portfolio/lore-and-flavor-text.png

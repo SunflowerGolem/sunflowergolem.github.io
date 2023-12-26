@@ -1,12 +1,6 @@
 ---
 title: "Design Masters"
-excerpt: "Role: Game writer
-Downloads: More than 5,000,000
-Reviews: 28K reviews, 4.2⭐
-Story genre: Slice of life, comedy, romance
-Core mechanic: Match-3
-Platform: Mobile
-Target audience: Women 35+"
+excerpt: "A mobile match-3 game for women audience with more than 5,000,000 downloads and 28K reviews, 4.2⭐. Slice of life, comedy and romance genre"
 header:
   overlay_image: /assets/images/projects/design-masters-1.png
   teaser: /assets/images/projects/design-masters-1.png

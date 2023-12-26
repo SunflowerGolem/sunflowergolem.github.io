@@ -1,8 +1,6 @@
 ---
 title: "Sparkle Inside"
-excerpt: "Role: Producer, game writer
-Story genre: Philosophical drama
-Core mechanic: Visual novel"
+excerpt: "A 2-days hackathon visual novel project in philosophical drama genre"
 header:
   overlay_image: /assets/images/projects/sparkle-inside.png
   teaser: /assets/images/projects/sparkle-inside.png

@@ -1,11 +1,12 @@
 ---
 title: "Action video game cinematic script sample"
+excerpt: "This piece showcases the writer's work with screenplay format, dialogue composition, and character portrayal."
 header:
   overlay_image: /assets/images/portfolio/action-video-game-cinematic-script.png
   teaser: /assets/images/portfolio/action-video-game-cinematic-script.png
 ---
 
-[Action video game cinematic script sample](https://drive.google.com/file/d/1e_JIoyUQGmYsPSc1nAhbRxzw_Mu8aHFc/view?usp=drive_link){:target="\_blank"} - a dynamic male-focused writing sample set in a contemporary backdrop, intended for a game featuring action or shooter elements. This piece showcases the writer's proficiency in screenplay format, dialogue composition, and character portrayal.
+[Action video game cinematic script sample](https://drive.google.com/file/d/1e_JIoyUQGmYsPSc1nAhbRxzw_Mu8aHFc/view?usp=drive_link){:target="\_blank"} - a dynamic male-focused writing sample set in a contemporary backdrop, intended for a game featuring action or shooter elements. This piece showcases the writer's work with screenplay format, dialogue composition, and character portrayal.
 
 In this brief scene the stage is set for an exhilarating mission, blending elements of action, camaraderie, and divergent perspectives among the characters. The primary objective of this scene is to captivate the audience, piquing their curiosity and building anticipation for the thrilling adventure that lies ahead.
 
