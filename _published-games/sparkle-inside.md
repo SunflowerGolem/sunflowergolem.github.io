@@ -1,11 +1,14 @@
 ---
 title: "Sparkle Inside"
+excerpt: "Role: Producer, game writer
+Story genre: Philosophical drama
+Core mechanic: Visual novel"
 header:
   overlay_image: /assets/images/projects/sparkle-inside.png
   teaser: /assets/images/projects/sparkle-inside.png
 sidebar:
   - title: "Role"
-    text: "Producer, screenwriter"
+    text: "Producer, game writer"
   - title: "Story genre"
     text: "Philosophical drama"
   - title: "Core mechanic"

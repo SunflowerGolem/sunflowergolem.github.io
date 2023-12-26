@@ -1,5 +1,10 @@
 ---
 title: "Sunset Secrets"
+excerpt: "Role: Solo game writer and narrative designer
+Story genre: Detective, comedy, romance
+Core mechanic: Match-3
+Platform: Mobile
+Target audience: Women 35+"
 header:
   overlay_image: /assets/images/projects/sunset-secrets.jpg
   teaser: /assets/images/projects/sunset-secrets-image-1.jpg

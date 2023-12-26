@@ -1,6 +1,10 @@
 ---
 title: "Mage Tower"
 tagline: "Mage Tower is my personal video game project in the visual novel genre. This one-shot game experience lets players dive deep into a psychological thriller in a dark fantasy setting and go through neat and fully charged adventure making tough morally complicated and meaningful decisions that have a big impact on the ending."
+excerpt: "Role: Writer, game designer, project manager
+Engines: Unreal, Articy: Draft 3
+Story genre: Dark fantasy, psychology thriller
+Core mechanic: Visual novel"
 header:
   overlay_image: /assets/images/projects/Mage-tower-title-cover.jpg
   teaser: /assets/images/projects/mage-tower.png
