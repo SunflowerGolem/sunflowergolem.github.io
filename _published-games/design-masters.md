@@ -19,7 +19,7 @@ sidebar:
   - title: "Target audience"
     text: "Women 35+"
 ---
-[Design Masters](https://playgendary.com/en/games/design-masters){:target="\_blank"} is a popular mobile game that combines match-3 gameplay with elements of interior design and decoration. With over [5 million downloads and a rating of 4.2 stars] (https://play.google.com/store/apps/details?id=com.playgendary.homes){:target="\_blank"}, it has garnered a loyal following among players who enjoy the challenge of solving puzzles while also exploring their creativity in home design. Design Masters also features a captivating story that unfolds as you progress through the game. You'll encounter a cast of characters, each with their own personality and story, as you work to help them achieve their dream home designs. This adds an extra layer of depth to the game and keeps players engaged and invested in the outcome.
+[Design Masters](https://playgendary.com/en/games/design-masters){:target="\_blank"} is a popular mobile game that combines match-3 gameplay with elements of interior design and decoration. With over [5 million downloads and a rating of 4.2 stars](https://play.google.com/store/apps/details?id=com.playgendary.homes){:target="\_blank"}, it has garnered a loyal following among players who enjoy the challenge of solving puzzles while also exploring their creativity in home design. Design Masters also features a captivating story that unfolds as you progress through the game. You'll encounter a cast of characters, each with their own personality and story, as you work to help them achieve their dream home designs. This adds an extra layer of depth to the game and keeps players engaged and invested in the outcome.
 
 Game trailer:
 
