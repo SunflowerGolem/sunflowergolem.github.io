@@ -1,10 +1,8 @@
 ---
 title: "Time of the Sword"
 header:
-  teaser: /assets/images/projects/time-of-the-sword-cover.png
-  video:
-    id: UybtxZq9Wpg
-    provider: youtube
+  overlay_image: /assets/images/projects/time-of-the-sword.jpg
+  teaser: /assets/images/projects/time-of-the-sword.jpg
 sidebar:
   - title: "Role"
     text: "Solo game writer and narrative designer"
@@ -26,7 +24,7 @@ When the otherworldly Shadows threaten to invade and slaughter all life again, F
 
 Yet, the line between good and evil blurs, a rift emerges not only amidst the realms, but among the bogatyrs. Finist has to confront his own beliefs and seek out the truth that could save the world from certain doom.
 
-![image-left](/assets/images/projects/time-of-the-sword-cover.png)
+{% include video id="UybtxZq9Wpg" provider="youtube" %}
 
 ## What I do
 
