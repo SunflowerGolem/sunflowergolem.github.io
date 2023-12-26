@@ -1,8 +1,8 @@
 ---
 title: "Time of the Sword"
 header:
-  overlay_image: /assets/images/projects/time-of-the-sword.jpg
-  teaser: /assets/images/projects/time-of-the-sword.jpg
+  overlay_image: /assets/images/projects/time-of-the-sword-cover.jpg
+  teaser: /assets/images/projects/time-of-the-sword-cover.jpg
 sidebar:
   - title: "Role"
     text: "Solo game writer and narrative designer"
