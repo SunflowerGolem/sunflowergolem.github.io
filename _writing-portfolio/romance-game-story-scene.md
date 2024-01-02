@@ -1,6 +1,6 @@
 ---
 title: "The Lust for Loot"
-excerpt: "A hot romance game scene with short diamond shape choice trees and high priority for animation economy and laconic texts"
+excerpt: "A hot romance game scene with short diamond shape choices and priority for animation economy and laconic texts"
 header:
   overlay_image: /assets/images/portfolio/the-lust-for-loot.png
   teaser: /assets/images/portfolio/the-lust-for-loot.png

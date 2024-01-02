@@ -1,6 +1,6 @@
 ---
 title: "Something big, something blue"
-excerpt: "A modern setting story scene for video formats, blending light comedy with drama, emphasizing engaging dialogues and character tones, suitable for a female audience"
+excerpt: "A modern setting story scene for video formats with comedy with drama elements suitable for a female audience"
 header:
   overlay_image: /assets/images/portfolio/fun-story-video-scene.png
   teaser: /assets/images/portfolio/fun-story-video-scene.png

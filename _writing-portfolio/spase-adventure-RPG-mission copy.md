@@ -1,6 +1,6 @@
 ---
 title: "Zephyr's Nebula"
-excerpt: "A space adventure RPG mission or quest plot with focus on meaningful choices that influence gameplay style and have consequences"
+excerpt: "A space adventure RPG mission plot with focus on meaningful choices that influence gameplay"
 header:
   overlay_image: /assets/images/portfolio/Space adventure rpg art.png
   teaser: /assets/images/portfolio/Space adventure rpg art.png

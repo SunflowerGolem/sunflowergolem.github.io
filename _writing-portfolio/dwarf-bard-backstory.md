@@ -1,6 +1,6 @@
 ---
 title: "The Shadow's Melody"
-excerpt: "A foundational backstory for a dwarf bard character, an initiation of their hero's journey arc, tailored for tabletop role-playing games such as Dungeons and Dragons"
+excerpt: "A backstory and an initiation of the hero's journey of a dwarf bard character for tabletop role-playing games such as Dungeons and Dragons"
 header:
   overlay_image: /assets/images/portfolio/dwarf_bard_character.png
   teaser: /assets/images/portfolio/dwarf_bard_character.png
