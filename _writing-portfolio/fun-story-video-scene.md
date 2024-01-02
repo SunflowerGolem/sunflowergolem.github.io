@@ -1,5 +1,5 @@
 ---
-title: "Something big, something blue"
+title: "Something Big, Something Blue"
 excerpt: "A modern setting story scene for video formats with comedy with drama elements suitable for a female audience"
 header:
   overlay_image: /assets/images/portfolio/fun-story-video-scene.png

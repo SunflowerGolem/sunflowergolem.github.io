@@ -1,5 +1,5 @@
 ---
-title: "The curse of thorns"
+title: "The Curse of Thorns"
 excerpt: "A Diablo 4 style branching side mission sequence that emphasizes combat and exploration gameplay within dark fantasy setting"
 header:
   overlay_image: /assets/images/portfolio/Diablo_4_style_game.png
