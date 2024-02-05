@@ -1,6 +1,6 @@
 ---
 title: "Zombie Zest"
-excerpt: "Barks for characters in a zombie horror survival comedy game."
+excerpt: "Barks for characters in a zombie horror survival comedy game"
 header:
   overlay_image: /assets/images/portfolio/Zombie Zest.jpg
   teaser: /assets/images/portfolio/Zombie Zest.jpg
