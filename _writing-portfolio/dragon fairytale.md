@@ -3,7 +3,7 @@ title: "Rid and the Treasure Map"
 tagline: "A classic fairytale lore piece for a fantasy world where dragons and magic really exist"
 excerpt: "This piece showcases the writer's work with lore and soft worldbuilding"
 header:
-  overlay_image: /assets/images/portfolio/dragon-fairytale.png
+  overlay_image: /assets/images/portfolio/dragon-fairytale-overlay.png
   teaser: /assets/images/portfolio/dragon-fairytale.png
 ---
 
