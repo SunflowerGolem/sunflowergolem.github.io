@@ -4,6 +4,7 @@ excerpt: "A Diablo 4 style branching side mission sequence that emphasizes comba
 header:
   overlay_image: /assets/images/portfolio/Diablo_4_style_game.png
   teaser: /assets/images/portfolio/Diablo_4_style_game.png
+order: 2
 ---
 
 [Diablo 4 style branching side mission sequence](https://drive.google.com/file/d/1NocLjJsZpqCCPLm0WeDFNzytpBaBDbFm/view?usp=sharing){:target="\_blank"} showcases the game writer's expertise in crafting a branching narrative for slasher or RPG-type games. The objective is to enrich the game world and create a lasting impact on players. This mission sequence emphasizes combat and exploration gameplay within a haunting and eerie atmosphere, and offers players multiple choices, moral dilemmas, and encounters, contributing to the dark fantasy setting.

@@ -4,6 +4,7 @@ excerpt: "A hot romance game scene with short diamond shape choices and priority
 header:
   overlay_image: /assets/images/portfolio/the-lust-for-loot.png
   teaser: /assets/images/portfolio/the-lust-for-loot.png
+order: 3
 ---
 
 [The Lust for Loot](https://drive.google.com/file/d/19E9H504PGBhGSw5_eCG6ueVunHRu-ood/view?usp=sharing){:target="\_blank"} - a choice-based interactive romance game writing sample in a fantasy setting. It shows game writer’s work with short diamond shape choice trees and high priority for animation economy and laconic texts.

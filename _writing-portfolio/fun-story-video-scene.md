@@ -4,6 +4,7 @@ excerpt: "A modern setting story scene for video formats with comedy with drama 
 header:
   overlay_image: /assets/images/portfolio/fun-story-video-scene.png
   teaser: /assets/images/portfolio/fun-story-video-scene.png
+order: 3
 ---
 
 [Something big, something blue](https://drive.google.com/file/d/1aRQwfkTlqk_MX-KySEhCaDdYVo_dcaeq/view?usp=sharing){:target="\_blank"} - a female-targeted modern setting writing sample with light comedy and drama elements. It shows the writer’s work with dialogues and character tones.
