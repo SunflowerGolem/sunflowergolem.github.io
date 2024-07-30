@@ -4,6 +4,7 @@ excerpt: "A backstory and an initiation of the hero's journey of a dwarf bard ch
 header:
   overlay_image: /assets/images/portfolio/dwarf_bard_character.png
   teaser: /assets/images/portfolio/dwarf_bard_character.png
+order: 3
 ---
 
 [The dwarf bard backstory](https://drive.google.com/file/d/1BsVojv88Vm5jYXYzDCCSVtN56gM9EwAs/view?usp=sharing){:target="\_blank"} is a concise piece showcasing the writer's ability to create a promising foundation regarding the character for potential exploration in tabletop role-playing games like DnD. The focus was on providing a player with a wide range of possible personal characteristics to choose from while also offering a framework for future character exploration, depth, and the basis for their personal quest, all presented in a laconic form.

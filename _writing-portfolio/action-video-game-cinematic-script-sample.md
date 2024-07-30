@@ -4,6 +4,7 @@ excerpt: "A script sample for an intro cinematic in an action or shooter game th
 header:
   overlay_image: /assets/images/portfolio/action-video-game-cinematic-script.png
   teaser: /assets/images/portfolio/action-video-game-cinematic-script.png
+order: 3
 ---
 
 [In this brief scene](https://drive.google.com/file/d/1e_JIoyUQGmYsPSc1nAhbRxzw_Mu8aHFc/view?usp=drive_link){:target="\_blank"} the stage is set for an exhilarating mission, blending elements of action, camaraderie, and different perspectives among the characters. The primary objective of this scene is to captivate the audience, piquing their curiosity and building anticipation for the thrilling adventure that lies ahead.

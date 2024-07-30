@@ -5,6 +5,7 @@ excerpt: "This piece showcases the writer's work with lore and soft worldbuildin
 header:
   overlay_image: /assets/images/portfolio/dragon-fairytale-overlay.png
   teaser: /assets/images/portfolio/dragon-fairytale.png
+order: 3
 ---
 
 [This short story in a format of a classic fairytale](https://drive.google.com/file/d/1C-DTzyh8ON36v8e-7iBTNk4ImaggsLzJ/view?usp=sharing){:target="\_blank"} highlights the writer's skill in creating an endearing character with a clear voice and tone, building a well-paced plot and balancing moments of tension with resolutions while conveying a clear and positive message.

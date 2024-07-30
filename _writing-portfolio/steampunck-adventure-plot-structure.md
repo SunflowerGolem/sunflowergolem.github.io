@@ -4,6 +4,7 @@ excerpt: "A steampunk adventure game story outline and synopsis, employing such 
 header:
   overlay_image: /assets/images/portfolio/Steampunk_City.png
   teaser: /assets/images/portfolio/Steampunk_City.png
+order: 3
 ---
 
 [The plot structure of a steampunk adventure game](https://drive.google.com/file/d/17gzQJCbVXZqlm6YPVwo2flwc-3PKWIdB/view?usp=sharing){:target="\_blank"} highlights the game writer's skill in crafting a comprehensive outline and synopsis, employing such techniques as the three-act structure and the hero's journey for game plots.
