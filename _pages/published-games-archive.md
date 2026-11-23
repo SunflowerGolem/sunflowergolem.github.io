@@ -1,5 +1,5 @@
 ---
-title: "Games & Projects"
+title: "Games and Projects"
 layout: collection-cta
 cta_headline: "Want a story like these for your game?"
 permalink: /published-games/

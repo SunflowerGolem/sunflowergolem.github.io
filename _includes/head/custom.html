@@ -17,8 +17,14 @@
   a.cta-card__alt, a.cta-card__alt:visited { font-size: 0.8em; color: #6f777d; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.25); text-underline-offset: 2px; }
   a.cta-card__alt:hover { color: #3d4144; }
   @media (max-width: 599px) { .cta-card__actions { align-items: flex-start; } }
+  /* Links in the sidebar bio: the theme styles sidebar links like plain text, so give them the normal link color and an underline */
+  .author__content .author__bio a, .author__content .author__bio a:visited { color: #2f7f93; text-decoration: underline; text-underline-offset: 2px; }
+  .author__content .author__bio a:hover { color: #1d5664; }
   /* Home page: opening statement next to the photo */
-  .home-hero__lead { font-size: 1.1em; font-weight: 600; }
+  .home-hero { margin-top: 1.75em; }
+  .home-hero__lead { font-size: 1.1em; margin-top: 0; }
+  /* Home page intro: text fills the full width of the column */
+  .home-intro p { text-align: justify; hyphens: manual; }
   /* Single review quote cards (_includes/review-quote.html) */
   .fiverr-reviews__item { margin: 0; padding: 1em 1.25em; border: 1px solid #e6e6e6; border-left: 4px solid #1dbf73; border-radius: 4px; font-style: normal; }
   .fiverr-reviews__item p { font-size: 0.9em; margin: 0 0 0.75em; }

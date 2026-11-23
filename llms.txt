@@ -9,7 +9,7 @@ sitemap: false
 
 > {{ site.description | strip }}
 
-{{ site.author.name }} is a narrative designer and game writer based in Houston, Texas, with 6+ years of experience on PC, console and mobile games. She writes quests, branching dialogue, characters, lore and cinematic scripts, and implements narrative content in Unity, Unreal, articy:draft and Twine. She is open to full-time roles (on-site or hybrid in Houston, or remote), long-term contracts and freelance work. All writing on this site is her own and is not AI-generated.
+{{ site.author.name }} is a narrative designer and game writer based in Houston, Texas, with 7+ years of experience on PC, console and mobile games. She writes quests, branching dialogue, characters, lore and cinematic scripts, and implements narrative content in Unity, Unreal, articy:draft and Twine. She is open to full-time roles (on-site or hybrid in Houston, or remote), long-term contracts and freelance work. All writing on this site is her own and is not AI-generated.
 
 ## Main pages
 

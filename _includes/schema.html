@@ -41,7 +41,7 @@
       "url": {{ sd_home | jsonify }},
       "image": {{ site.og_image | absolute_url | jsonify }},
       "jobTitle": "Narrative Designer and Game Writer",
-      "description": {{ site.author.bio | jsonify }},
+      "description": {{ site.author.bio | markdownify | strip_html | normalize_whitespace | strip | jsonify }},
       "email": {{ site.email | prepend: "mailto:" | jsonify }},
       "address": { "@type": "PostalAddress", "addressLocality": "Houston", "addressRegion": "TX", "addressCountry": "US" },
       "hasOccupation": {

@@ -84,7 +84,10 @@ analytics:
 author:
   name: "Taisiia Smirnova"
   avatar: "/assets/images/avatar.webp"
-  bio: "Narrative designer & game writer. Credits with tinyBuild, Playgendary and Dou Dou Games. Open to full-time & freelance work."
+  bio: |
+    Narrative designer and game writer. Credits with [tinyBuild](https://www.tinybuild.com/), Playgendary and Cynaps Arts.
+
+    Open to full-time and freelance work.
   location: "Houston, TX · Remote"
   links:
     - label: "Email"

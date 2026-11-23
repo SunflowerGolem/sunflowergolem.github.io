@@ -2,7 +2,7 @@
 permalink: /services/
 redirect_from:
   - /hire-me/
-title: "Hire a Game Writer & Narrative Designer"
+title: "Hire a Game Writer and Narrative Designer"
 service: true
 last_modified_at: 2026-11-17
 classes: wide
@@ -15,7 +15,7 @@ There are two ways to work with me, depending on what you need.
 
 <div class="packages work-paths">
   <div class="package">
-    <p class="package__scope">Indie developers &amp; small projects</p>
+    <p class="package__scope">Indie developers and small projects</p>
     <h2 class="package__name">A piece of writing for your game</h2>
     <p>A quest, a character cast, lore, a branching dialogue scene or a story outline. Fixed scope and price, with Fiverr holding your payment until the work is delivered.</p>
     <p><span class="stars" aria-hidden="true">★★★★★</span> <strong>{{ f.rating }}</strong> from <a href="{{ site.fiverr_profile_url }}" class="reviews-link" target="_blank" rel="noopener">{{ f.review_count }} reviews</a> on Fiverr</p>
@@ -25,9 +25,9 @@ There are two ways to work with me, depending on what you need.
     </div>
   </div>
   <div class="package">
-    <p class="package__scope">Studios, hiring managers &amp; HR</p>
+    <p class="package__scope">Studios, hiring managers and HR</p>
     <h2 class="package__name">A narrative designer on your team</h2>
-    <p>Full-time (on-site or hybrid in Houston, TX, or remote) or a long-term contract. 6+ years on PC, console and mobile games, with credits at tinyBuild, Playgendary and Dou Dou Games.</p>
+    <p>Full-time (on-site or hybrid in Houston, TX, or remote) or a long-term contract. 7+ years on PC, console and mobile games, with credits at tinyBuild, Playgendary and Dou Dou Games.</p>
     <div class="package__cta">
       <a href="/assets/Taisiia-Smirnova-Game-Writer-Narrative-Designer-CV.pdf" class="pill pill--dark"><i class="fas fa-file-arrow-down" aria-hidden="true"></i> Download CV</a>
       <a href="#studios" class="pill"><i class="fas fa-arrow-down" aria-hidden="true"></i> What I bring</a>
