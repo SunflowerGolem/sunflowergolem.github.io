@@ -45,6 +45,7 @@ include:
 # Files that should not be published on the site.
 exclude:
   - README.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - node_modules
