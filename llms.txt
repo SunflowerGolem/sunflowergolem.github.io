@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- assign games = site["published-games"] | sort: "order" -%}
+{%- assign samples = site["writing-portfolio"] | sort: "order" -%}
+# {{ site.author.name }}, narrative designer and game writer
+
+> {{ site.description | strip }}
+
+{{ site.author.name }} is a narrative designer and game writer based in Houston, Texas, with 6+ years of experience on PC, console and mobile games. She writes quests, branching dialogue, characters, lore and cinematic scripts, and implements narrative content in Unity, Unreal, articy:draft and Twine. She is open to full-time roles (on-site or hybrid in Houston, or remote), long-term contracts and freelance work. All writing on this site is her own and is not AI-generated.
+
+## Main pages
+
+- [Home]({{ "/" | absolute_url }}): who she is, career summary and credits
+- [Hire Me]({{ "/services/" | absolute_url }}): what she offers studios and indie developers, tools and genres
+- [Contact]({{ "/contact/" | absolute_url }}): email, LinkedIn and Fiverr
+- [CV (PDF)]({{ "/assets/Taisiia-Smirnova-Game-Writer-Narrative-Designer-CV.pdf" | absolute_url }})
+
+## Games and projects
+
+{% for d in games -%}
+- [{{ d.title }}]({{ d.url | absolute_url }}): {{ d.description | default: d.excerpt | strip_html | strip }}
+{% endfor %}
+## Writing samples
+
+{% for d in samples -%}
+- [{{ d.title }}]({{ d.url | absolute_url }}): {{ d.description | default: d.excerpt | strip_html | strip }}
+{% endfor %}
+## Contact
+
+- Email: {{ site.email }}
+- LinkedIn: https://www.linkedin.com/in/taisiia-smirnova-narrative/
+- Fiverr: {{ site.fiverr_profile_url }}

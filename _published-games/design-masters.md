@@ -1,9 +1,14 @@
 ---
 title: "Design Masters"
-excerpt: "A mobile match-3 game for women audience with more than 5,000,000 downloads and 28K reviews, 4.2⭐. Slice of life, comedy and romance genre"
+excerpt: "A mobile match-3 game for a female audience with more than 5,000,000 downloads and 28K reviews, 4.2⭐. Slice of life, comedy and romance genre"
+description: "Design Masters is a mobile match-3 and home design game by Playgendary with over 5 million downloads. Taisiia Smirnova wrote characters, scenes, dialogue and ad scripts for it."
+official_url: "https://play.google.com/store/apps/details?id=com.playgendary.homes"
+date: 2023-03-09
+last_modified_at: 2026-11-17
+order: 5
 header:
-  overlay_image: /assets/images/projects/design-masters-1.png
-  teaser: /assets/images/projects/design-masters-1.png
+  overlay_image: /assets/images/projects/design-masters-1.jpg
+  teaser: /assets/images/projects/design-masters-1.jpg
 sidebar:
   - title: "Role"
     text: "Game writer"
@@ -20,7 +25,7 @@ sidebar:
   - title: "Target audience"
     text: "Women 35+"
 ---
-[Design Masters](https://playgendary.com/en/games/design-masters){:target="\_blank"} is a popular mobile game that combines match-3 gameplay with elements of interior design and decoration. With over [5 million downloads and a rating of 4.2 stars](https://play.google.com/store/apps/details?id=com.playgendary.homes){:target="\_blank"}, it has garnered a loyal following among players who enjoy the challenge of solving puzzles while also exploring their creativity in home design. Design Masters also features a captivating story that unfolds as you progress through the game. You'll encounter a cast of characters, each with their own personality and story, as you work to help them achieve their dream home designs. This adds an extra layer of depth to the game and keeps players engaged and invested in the outcome.
+[Design Masters](https://playgendary.com/en/games/design-masters){:target="_blank"} is a popular mobile game that combines match-3 gameplay with elements of interior design and decoration. With over [5 million downloads and a rating of 4.2 stars](https://play.google.com/store/apps/details?id=com.playgendary.homes){:target="_blank"}, it has garnered a loyal following among players who enjoy the challenge of solving puzzles while also exploring their creativity in home design. Design Masters also features a captivating story that unfolds as you progress through the game. You'll encounter a cast of characters, each with their own personality and story, as you work to help them achieve their dream home designs. This adds an extra layer of depth to the game and keeps players engaged and invested in the outcome.
 
 Game trailer:
 
@@ -36,6 +41,6 @@ Here is the gameplay video where you can see some of my characters and dialogues
 - Built concise scenes that align with the game's core mechanics, improving its pacing and aiding players in achieving their objectives, fostering a deeper immersion.
 - Crafted narrative for game locations, providing an enjoyable and educational experience for players as they design and decorate homes with the guidance of the story.
 - Wrote the dialogues and other in-game texts while analyzing and incorporating the writing styles of other writers on the team into my work.
-- Engaged advertisement scripts, supporting the game to gain more exposure and attract a larger audience.
+- Wrote advertising scripts, supporting the game to gain more exposure and attract a larger audience.
 
-![image-left](/assets/images/projects/design-masters-2.png)
+![Design Masters promotional screenshot: a red-haired character holding a design book next to room designs, with the caption "Enjoy the story"](/assets/images/projects/design-masters-2.jpg){: loading="lazy"}

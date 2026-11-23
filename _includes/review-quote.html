@@ -1,0 +1,7 @@
+{% assign r = site.data.fiverr.reviews | where: "id", include.id | first %}
+{% if r %}
+<blockquote class="fiverr-reviews__item review-quote">
+  <p>“{{ r.quote }}”</p>
+  <footer><span aria-label="5 out of 5 stars">★★★★★</span> Fiverr client, {{ r.country }}</footer>
+</blockquote>
+{% endif %}

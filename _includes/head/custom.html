@@ -1,1 +1,112 @@
 <meta name="google-site-verification" content="qvyg7YGJSrbR3Cc4u_qwqZIlWe170Lq6kOWMh7-eEGM" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="max-image-preview:large, max-snippet:-1">
+<style>
+  /* Sample excerpts on writing sample pages */
+  .sample-excerpt { margin: 1.5em 0; padding: 0.25em 1.5em; background: #f7f9f8; border-left: 4px solid #d5dadd; border-radius: 4px; font-size: 0.95em; }
+  .sample-excerpt table { font-size: 0.85em; }
+  /* Card at the end of sample, game and list pages (_includes/contact-cta.html) */
+  .cta-card { clear: both; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1em 2em; margin: 2.5em 0 1em; padding: 1.25em 1.5em; background: #f7f9f8; border: 1px solid #e3e9e6; border-left: 4px solid #1dbf73; border-radius: 6px; }
+  .cta-card__text { flex: 1 1 22em; }
+  .cta-card p { margin: 0; }
+  .cta-card__title { font-size: 1.05em; font-weight: bold; }
+  .cta-card__lead { margin-top: 0.25em !important; font-size: 0.9em; color: #494e52; }
+  .cta-card__rating { margin-top: 0.6em !important; font-size: 0.8em; color: #6f777d; }
+  .cta-card__rating span { color: #f5a623; letter-spacing: 1px; }
+  .cta-card__actions { display: flex; flex-direction: column; align-items: center; gap: 0.5em; }
+  a.cta-card__alt, a.cta-card__alt:visited { font-size: 0.8em; color: #6f777d; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.25); text-underline-offset: 2px; }
+  a.cta-card__alt:hover { color: #3d4144; }
+  @media (max-width: 599px) { .cta-card__actions { align-items: flex-start; } }
+  /* Home page: opening statement next to the photo */
+  .home-hero__lead { font-size: 1.1em; font-weight: 600; }
+  /* Single review quote cards (_includes/review-quote.html) */
+  .fiverr-reviews__item { margin: 0; padding: 1em 1.25em; border: 1px solid #e6e6e6; border-left: 4px solid #1dbf73; border-radius: 4px; font-style: normal; }
+  .fiverr-reviews__item p { font-size: 0.9em; margin: 0 0 0.75em; }
+  .fiverr-reviews__item footer { font-size: 0.8em; color: #6f777d; }
+  .fiverr-reviews__item footer span { color: #f5a623; letter-spacing: 1px; }
+  /* Hire Me page: the two path cards at the top */
+  .packages { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25em; margin: 2em 0; align-items: stretch; }
+  .package { position: relative; display: flex; flex-direction: column; padding: 1.5em 1.25em; border: 1px solid #e6e6e6; border-radius: 6px; }
+  .package__name { margin: 0; font-size: 1.2em; }
+  .package__scope { font-size: 0.75em; font-weight: bold; text-transform: uppercase; color: #6f777d; }
+  .package p { font-size: 0.9em; }
+  .package__cta { margin-top: auto; }
+  .work-paths .stars { color: #f5a623; letter-spacing: 1px; }
+  /* Green Fiverr button in the sidebar block; a.btn.btn--fiverr beats the theme link colors */
+  a.btn.btn--fiverr, a.btn.btn--fiverr:visited { background: #1dbf73; border-color: #1dbf73; color: #fff !important; text-decoration: none; }
+  a.btn.btn--fiverr:hover { background: #19a463; border-color: #19a463; color: #fff !important; }
+  /* Fiverr block at the bottom of the author sidebar (desktop only) */
+  .author__urls li.sidebar-hire { white-space: normal; max-width: 100%; }
+  .sidebar-hire__card { box-sizing: border-box; max-width: 100%; margin: 1em 0 0; padding: 0.8em 0.9em; background: #f1fbf6; border: 1px solid #c9eedb; border-radius: 6px; font-size: 0.85rem; line-height: 1.4; }
+  .sidebar-hire__rating span { color: #f5a623; letter-spacing: 1px; }
+  .author__urls a.sidebar-hire__btn { display: block; margin-top: 0.7em; text-align: center; font-size: 0.8rem; padding: 0.5em 0.8em; }
+  @media (max-width: 63.99em) { .sidebar-hire { display: none; } }
+  /* Contact page: two routes */
+  .contact-routes { display: grid; gap: 1.25em; margin: 1.5em 0 2em; }
+  .contact-route { padding: 1.25em 1.5em; border: 1px solid #e6e6e6; border-radius: 6px; }
+  .contact-route h2 { margin: 0 0 0.5em; padding: 0; border: 0; font-size: 1.15em; }
+  .contact-route p { font-size: 0.95em; margin-bottom: 0.8em; }
+  .contact-route .pill-row { margin: 1em 0 0; }
+  .contact-route__rating span { color: #f5a623; letter-spacing: 1px; }
+  /* Icon buttons (Hire Me, Contact, end-of-page box), same 4px corners as the theme buttons */
+  .pill-row, .work-paths .package__cta { display: flex; flex-wrap: wrap; gap: 0.6em; }
+  a.pill { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.6em 1.15em; border: 1px solid #d5dadd; border-radius: 4px; background: #fff; color: #3d4144; font-size: 0.85rem; font-weight: 600; text-decoration: none; transition: background 0.15s, border-color 0.15s, transform 0.15s; }
+  a.pill:hover { background: #f4f6f7; border-color: #b9c0c4; transform: translateY(-1px); }
+  a.pill i { font-size: 1.05em; }
+  a.pill--dark { background: #3d4144; border-color: #3d4144; color: #fff; }
+  a.pill--dark:hover { background: #2a2d2f; border-color: #2a2d2f; }
+  a.pill--fiverr { background: #1dbf73; border-color: #1dbf73; color: #fff; }
+  a.pill--fiverr:hover { background: #19a463; border-color: #19a463; }
+  a.pill--linkedin i { color: #0a66c2; }
+  .page__content a.pill, .page__content a.pill:visited, .page__content a.pill:hover,
+  .contact-cta a.pill, .contact-cta a.pill:visited, .contact-cta a.pill:hover { color: #3d4144; text-decoration: none; }
+  .page__content a.pill--dark, .page__content a.pill--dark:visited, .page__content a.pill--dark:hover,
+  .page__content a.pill--fiverr, .page__content a.pill--fiverr:visited, .page__content a.pill--fiverr:hover,
+  .contact-cta a.pill--fiverr, .contact-cta a.pill--fiverr:visited, .contact-cta a.pill--fiverr:hover,
+  .contact-cta a.pill--dark, .contact-cta a.pill--dark:visited, .contact-cta a.pill--dark:hover { color: #fff; }
+  /* Single review quotes (Hire Me page) and the quote in the sidebar block */
+  .review-quote { max-width: 44em; margin: 1.5em 0; }
+  .review-quote p { font-size: 0.95em; font-style: italic; }
+  /* Rotating review quotes in the sidebar block: slides share one grid cell so the height never jumps */
+  .review-carousel { margin: 0.5em 0 0.6em; }
+  .review-carousel__track { display: grid; }
+  .author__urls .review-carousel__slide { grid-area: 1 / 1; margin: 0; font-size: 0.8rem; font-style: italic; color: #494e52; opacity: 0; visibility: hidden; transition: opacity 0.6s ease, visibility 0.6s; }
+  .author__urls .review-carousel__slide.is-active { opacity: 1; visibility: visible; }
+  .author__urls .review-carousel__slide span { font-style: normal; font-size: 0.7rem; color: #6f777d; }
+  .review-carousel__dots { display: flex; align-items: center; gap: 7px; margin-top: 0.6em; }
+  .author__urls a.review-carousel__dot { display: block; margin: 0; width: 8px; height: 8px; padding: 0; border: 0; border-radius: 50%; background: #c9eedb; cursor: pointer; }
+  .author__urls a.review-carousel__dot.is-active { background: #1dbf73; }
+  @media (prefers-reduced-motion: reduce) { .author__urls .review-carousel__slide { transition: none; } }
+  /* Sidebar never gets its own scrollbar: if it is taller than the window it scrolls with the page instead of sticking (see script below) */
+  @media (min-width: 64em) {
+    .sidebar.sticky { overflow-y: visible; max-height: none; }
+    .sidebar.sticky.sidebar--static { position: static; }
+  }
+  /* "34 reviews" links to the Fiverr profile, where that total is shown */
+  a.reviews-link, a.reviews-link:visited { color: inherit; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.3); text-underline-offset: 2px; }
+  a.reviews-link:hover { color: #138a52; text-decoration-color: currentColor; }
+  .author__urls a.reviews-link { display: inline; margin: 0; padding: 0; }
+  /* Previous / next sample or game, in grid order (_includes/post_pagination.html) */
+  .doc-pager { clear: both; display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 2em 0 1em; }
+  a.doc-pager__link { display: flex; flex-direction: column; gap: 0.2em; padding: 0.9em 1.1em; border: 1px solid #e6e6e6; border-radius: 6px; color: #3d4144; text-decoration: none; transition: border-color 0.15s, background 0.15s; }
+  a.doc-pager__link:hover { border-color: #1dbf73; background: #f7f9f8; text-decoration: none; }
+  a.doc-pager__link--next { text-align: right; grid-column: 2; }
+  .doc-pager__label { font-size: 0.75em; color: #6f777d; text-transform: uppercase; letter-spacing: 0.04em; }
+  .doc-pager__title { font-weight: bold; font-size: 0.95em; }
+  @media (max-width: 599px) { .doc-pager { grid-template-columns: 1fr; } a.doc-pager__link--next { grid-column: 1; } }
+</style>
+<script>
+  (function () {
+    function fit() {
+      var list = document.querySelectorAll(".sidebar.sticky");
+      for (var i = 0; i < list.length; i++) {
+        list[i].classList.toggle("sidebar--static", list[i].scrollHeight > window.innerHeight - 64);
+      }
+    }
+    document.addEventListener("DOMContentLoaded", fit);
+    window.addEventListener("load", fit);
+    window.addEventListener("resize", fit);
+  })();
+</script>
+{% include structured-data.html %}
+{% include click-tracking.html %}

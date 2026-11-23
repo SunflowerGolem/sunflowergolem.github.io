@@ -1,0 +1,52 @@
+{% assign f = site.data.fiverr %}
+{% assign side = f.reviews | where: "sidebar", true %}
+<li class="sidebar-hire">
+  <div class="sidebar-hire__card">
+    <div class="sidebar-hire__rating"><span aria-hidden="true">★★★★★</span> <strong>{{ f.rating }}</strong> · <a href="{{ site.fiverr_profile_url }}" class="reviews-link" target="_blank" rel="noopener">{{ f.review_count }} reviews</a></div>
+    {% if side.size > 0 %}
+    <div class="review-carousel" aria-roledescription="carousel" aria-label="Client reviews">
+      <div class="review-carousel__track">
+        {% for r in side %}
+        <p class="review-carousel__slide{% if forloop.first %} is-active{% endif %}" aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">“{{ r.short | default: r.quote }}”<br><span>Fiverr client, {{ r.country }}</span></p>
+        {% endfor %}
+      </div>
+      {% if side.size > 1 %}
+      <div class="review-carousel__dots">
+        {% for r in side %}
+        <a href="#" role="button" class="review-carousel__dot{% if forloop.first %} is-active{% endif %}" aria-label="Show review {{ forloop.index }}"></a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    <a href="{{ site.fiverr_gig_url }}" class="btn btn--primary btn--fiverr sidebar-hire__btn" target="_blank" rel="noopener">Order on Fiverr</a>
+  </div>
+</li>
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling.querySelector('.review-carousel');
+  if (!root) return;
+  var slides = root.querySelectorAll('.review-carousel__slide');
+  var dots = root.querySelectorAll('.review-carousel__dot');
+  if (slides.length < 2) return;
+  var i = 0, timer = null;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function show(n) {
+    i = (n + slides.length) % slides.length;
+    for (var k = 0; k < slides.length; k++) {
+      var on = k === i;
+      slides[k].classList.toggle('is-active', on);
+      slides[k].setAttribute('aria-hidden', on ? 'false' : 'true');
+      dots[k].classList.toggle('is-active', on);
+    }
+  }
+  function start() { if (!reduce) { stop(); timer = setInterval(function () { show(i + 1); }, 5000); } }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  for (var k = 0; k < dots.length; k++) {
+    (function (n) { dots[n].addEventListener('click', function (e) { e.preventDefault(); show(n); start(); }); })(k);
+  }
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  start();
+})();
+</script>

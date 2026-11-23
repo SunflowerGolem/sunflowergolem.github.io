@@ -1,10 +1,15 @@
 ---
 title: "An Average Adventure"
+schema_type: Game
 tagline: "An Average Adventure is a personalized journey through a fully homebrewed world in a one-of-a-kind tabletop role-playing game campaign. With a story tailored specifically to my players and their characters' backstories, my goal is to immerse them in a dark and compelling fantasy setting filled with challenging moral choices and shades of gray morality. From their humble beginnings to the dizzying heights of high levels, players experience a vast and interconnected web of engaging and meaningful story arcs, each one building on the last to create a truly epic tale for the ages."
 excerpt: "A thriller, adventure game in fantasy setting with DnD system as core mechanic"
+description: "An Average Adventure is a homebrew D&D campaign designed and run by Taisiia Smirnova: a dark fantasy world with hard moral choices and interconnected story arcs."
+date: 2023-03-09
+last_modified_at: 2026-11-17
+order: 8
 header:
-  overlay_image: /assets/images/projects/demons_against_undead.png
-  teaser: /assets/images/projects/demons_against_undead.png
+  overlay_image: /assets/images/projects/demons_against_undead.jpg
+  teaser: /assets/images/projects/demons_against_undead.jpg
 sidebar:
   - title: "Role"
     text: "Solo game developer"

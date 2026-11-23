@@ -1,0 +1,62 @@
+{%- comment -%}
+  Home page structured data. Replaces the theme's schema.html (which printed a Person with no name).
+  The Person here is the one every other page points to through "/#person".
+{%- endcomment -%}
+{%- assign sd_home = "/" | absolute_url -%}
+{%- assign sd_person_id = "/#person" | absolute_url -%}
+{%- assign sd_site_id = "/#website" | absolute_url -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ sd_site_id | jsonify }},
+      "url": {{ sd_home | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": {{ site.author.name | jsonify }},
+      "description": {{ site.description | strip | jsonify }},
+      "inLanguage": "en",
+      "publisher": { "@id": {{ sd_person_id | jsonify }} }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": {{ sd_home | append: "#webpage" | jsonify }},
+      "url": {{ sd_home | jsonify }},
+      "name": {{ page.seo_title | default: page.title | jsonify }},
+      "description": {{ page.description | default: site.description | strip | jsonify }},
+      "inLanguage": "en",
+      {%- if page.last_modified_at %}
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      {%- endif %}
+      "isPartOf": { "@id": {{ sd_site_id | jsonify }} },
+      "mainEntity": { "@id": {{ sd_person_id | jsonify }} }
+    },
+    {
+      "@type": "Person",
+      "@id": {{ sd_person_id | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "givenName": "Taisiia",
+      "familyName": "Smirnova",
+      "url": {{ sd_home | jsonify }},
+      "image": {{ site.og_image | absolute_url | jsonify }},
+      "jobTitle": "Narrative Designer and Game Writer",
+      "description": {{ site.author.bio | jsonify }},
+      "email": {{ site.email | prepend: "mailto:" | jsonify }},
+      "address": { "@type": "PostalAddress", "addressLocality": "Houston", "addressRegion": "TX", "addressCountry": "US" },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Narrative Designer",
+        "skills": "Narrative design, game writing, quest design, branching dialogue, worldbuilding, cinematic scripts"
+      },
+      "knowsAbout": ["Narrative design", "Game writing", "Quest design", "Branching dialogue", "Worldbuilding and lore", "Cinematic scripts", "Character writing", "Tabletop RPG writing", "Unity", "Unreal Engine", "articy:draft", "Twine"],
+      "mainEntityOfPage": { "@id": {{ sd_home | append: "#webpage" | jsonify }} },
+      "sameAs": [
+        "https://www.linkedin.com/in/taisiia-smirnova-narrative/",
+        {{ site.fiverr_profile_url | jsonify }},
+        "https://taisiia.itch.io/"
+      ]
+    }
+  ]
+}
+</script>

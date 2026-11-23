@@ -1,0 +1,41 @@
+{% assign locale = include.locale | default: site.locale %}
+{% if page.collection and page.collection != "posts" %}
+  {%- comment -%} Samples and games: previous/next in the same order as the grid (front matter "order"), with titles. {%- endcomment -%}
+  {% assign pager_docs = site[page.collection] | sort: "order" %}
+  {% assign pager_prev = nil %}{% assign pager_next = nil %}{% assign pager_idx = -1 %}
+  {% for d in pager_docs %}{% if d.url == page.url %}{% assign pager_idx = forloop.index0 %}{% endif %}{% endfor %}
+  {% if pager_idx >= 0 %}
+    {% if pager_idx > 0 %}{% assign i = pager_idx | minus: 1 %}{% assign pager_prev = pager_docs[i] %}{% endif %}
+    {% assign i = pager_idx | plus: 1 %}{% assign pager_next = pager_docs[i] %}
+  {% endif %}
+  {% if page.collection == "published-games" %}{% assign pager_noun = "game" %}{% else %}{% assign pager_noun = "sample" %}{% endif %}
+  {% if pager_prev or pager_next %}
+  <nav class="doc-pager" aria-label="More {{ pager_noun }}s">
+    {% if pager_prev %}
+      <a class="doc-pager__link doc-pager__link--prev" href="{{ pager_prev.url | relative_url }}">
+        <span class="doc-pager__label"><i class="fas fa-arrow-left" aria-hidden="true"></i> Previous {{ pager_noun }}</span>
+        <span class="doc-pager__title">{{ pager_prev.title }}</span>
+      </a>
+    {% else %}<span></span>{% endif %}
+    {% if pager_next %}
+      <a class="doc-pager__link doc-pager__link--next" href="{{ pager_next.url | relative_url }}">
+        <span class="doc-pager__label">Next {{ pager_noun }} <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+        <span class="doc-pager__title">{{ pager_next.title }}</span>
+      </a>
+    {% endif %}
+  </nav>
+  {% endif %}
+{% elsif page.previous or page.next %}
+  <nav class="pagination" aria-label="Post pagination">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html | strip}}">{{ site.data.ui-text[locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[locale].pagination_previous | default: "Previous" }}</a>
+    {% endif %}
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html | strip}}">{{ site.data.ui-text[locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[locale].pagination_next | default: "Next" }}</a>
+    {% endif %}
+  </nav>
+{% endif %}

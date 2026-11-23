@@ -1,0 +1,47 @@
+# Fiverr rating and review quotes shown on the site (packages and prices live only on Fiverr).
+# Source: Fiverr MCP (get_freelancer_overview, username tais_narrative), pulled 2026-11-15.
+# Update these by hand when the numbers change on Fiverr.
+rating: "5.0"
+review_count: 34
+# Client review excerpts (country only, no usernames).
+# Show one on a page with {% include review-quote.html id="..." %}.
+# Reviews with sidebar: true rotate in the sidebar block, in this order, using "short" when present.
+reviews:
+  - id: insight
+    quote: "Her expertise and insight identified a problem with a character that I was unable to see and provided three incredible options in which to solve it."
+    short: "Her expertise and insight identified a problem with a character that I was unable to see…"
+    country: "United Kingdom"
+    sidebar: true
+  - id: magic
+    quote: "How Tais managed to turn my jumbled nonsense into real, actual characters I would want to hang out or go adventuring with, is nothing short of magical. She breathed life into my ideas. Don't hesitate, Tais is worth it."
+    short: "She breathed life into my ideas. Don't hesitate, Tais is worth it."
+    country: "United States"
+    sidebar: true
+  - id: longterm
+    quote: "Tais has been helping with a long term project on the story and lore of the game. Week after week she delivered great quality work. Always on time, transparent, and paid a lot of attention to details. I highly recommend working with her, and will continue to do so in the future."
+    short: "Week after week she delivered great quality work. Always on time, transparent, and paid a lot of attention to details."
+    country: "Germany"
+    sidebar: true
+  - id: npcs
+    quote: "Amazing work full of passion. Tai created interesting and deep NPCs for my TTRPG with quick turn around time."
+    short: "Tai created interesting and deep NPCs for my TTRPG with quick turn around time."
+    country: "United Kingdom"
+    sidebar: true
+  - id: storyline
+    quote: "Very happy with Tais' work on our narrative structure and overarching storyline. She had some very cool ideas on how to tie everything together and has been a big help."
+    short: "Very happy with Tais' work on our narrative structure and overarching storyline."
+    country: "United Kingdom"
+    sidebar: true
+  - id: mentalload
+    quote: "Another wonderful job from a wonderful writer! Saved me so much time and lifted a tremendous mental load from my shoulders!"
+    short: "Saved me so much time and lifted a tremendous mental load from my shoulders!"
+    country: "United States"
+    sidebar: true
+  - id: structure
+    quote: "I was overloaded with potential ideas and she helped me narrow it down and structure it so we can pace better. Will be working with her for every narrative venture moving forward."
+    short: "…she helped me narrow it down and structure it so we can pace better."
+    country: "United States"
+  - id: feedback
+    quote: "She didn't shy away from feedback, or trying out new things and see how they land. Schedule and expectations were communicated clearly. I would definitely recommend working with her!"
+    short: "Schedule and expectations were communicated clearly. I would definitely recommend working with her!"
+    country: "Belgium"

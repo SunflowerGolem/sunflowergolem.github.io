@@ -1,0 +1,65 @@
+<script>
+  /*
+    Click tracking for Google Analytics 4 (only sends on the live site, where the theme loads gtag).
+    Every event gets:
+      link_location  where on the page the click happened (sidebar_block, end_card, hire_me_top, ...)
+      link_text      the visible text of the button or link
+      link_url       where it goes
+    Events: fiverr_click, email_click, linkedin_click, cv_download, sample_open, cta_click, pager_click, review_dot_click
+    To test locally, open any page with ?track_debug in the address: events are printed to the browser console.
+  */
+  (function () {
+    var debug = /[?&]track_debug\b/.test(location.search);
+
+    var regions = [
+      [".sidebar-hire", "sidebar_block"],
+      [".author__urls", "sidebar_links"],
+      [".cta-card", "end_card"],
+      [".work-paths", "hire_me_top"],
+      ["#indie-actions", "hire_me_indie"],
+      ["#studios-actions-top", "hire_me_studio_top"],
+      ["#studios-actions-bottom", "hire_me_studio_bottom"],
+      [".contact-route", "contact_page"],
+      [".doc-pager", "pager"],
+      [".masthead", "menu"],
+      [".page__footer", "footer"]
+    ];
+
+    function where(el) {
+      for (var i = 0; i < regions.length; i++) {
+        if (el.closest(regions[i][0])) return regions[i][1];
+      }
+      return "page_body";
+    }
+
+    function send(name, params) {
+      if (debug) console.log("[track]", name, params);
+      if (typeof window.gtag === "function") window.gtag("event", name, params);
+    }
+
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a");
+      if (!a) return;
+      var href = a.getAttribute("href") || "";
+      var params = {
+        link_location: where(a),
+        link_text: (a.textContent || "").replace(/\s+/g, " ").trim().slice(0, 100),
+        link_url: a.href || href
+      };
+
+      if (a.classList.contains("review-carousel__dot")) { send("review_dot_click", params); return; }
+      if (/fiverr\.com/i.test(href)) {
+        params.fiverr_target = a.classList.contains("reviews-link") ? "reviews" : (/fiverr\.com\/tais_narrative\/./i.test(href) ? "gig" : "profile");
+        send("fiverr_click", params); return;
+      }
+      if (/^mailto:/i.test(href)) { send("email_click", params); return; }
+      if (/linkedin\.com/i.test(href)) { send("linkedin_click", params); return; }
+      if (/\.pdf($|[?#])/i.test(href) && /CV/i.test(decodeURIComponent(href))) { send("cv_download", params); return; }
+      if (/drive\.google\.com|docs\.google\.com/i.test(href)) { send("sample_open", params); return; }
+      if (a.closest(".doc-pager")) { send("pager_click", params); return; }
+      if (a.classList.contains("pill") || a.classList.contains("btn") || a.closest(".cta-card, .work-paths, .contact-route")) {
+        send("cta_click", params);
+      }
+    }, true);
+  })();
+</script>

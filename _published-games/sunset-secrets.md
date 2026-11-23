@@ -1,6 +1,11 @@
 ---
 title: "Sunset Secrets"
-excerpt: "A mobile match-3 game for women audience in detective, comedy and romance genre"
+excerpt: "A mobile match-3 game for a female audience in detective, comedy and romance genre"
+description: "Sunset Secrets is a mobile detective match-3 game by Dou Dou Games. Taisiia Smirnova was its solo screenwriter and narrative designer: story, 10+ characters, dialogue and trailer script."
+official_url: "https://play.google.com/store/apps/details?id=com.PuzzlePoint.SunsetSecrets"
+date: 2023-03-09
+last_modified_at: 2026-11-17
+order: 4
 header:
   overlay_image: /assets/images/projects/sunset-secrets.jpg
   teaser: /assets/images/projects/sunset-secrets-image-1.jpg
@@ -17,9 +22,9 @@ sidebar:
     text: "Women 35+"
 ---
 
-[Sunset Secrets](https://play.google.com/store/apps/details?id=com.PuzzlePoint.SunsetSecrets){:target="\_blank"} is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives.
+[Sunset Secrets](https://play.google.com/store/apps/details?id=com.PuzzlePoint.SunsetSecrets){:target="_blank"} is a mobile story-based match-3 game in the detective genre in a modern setting for the preferred audience of women 35+ choosing emotionally enriching and light mood narratives.
 
-![image-left](/assets/images/projects/sunset-secrets-image-1.jpg)
+![Sunset Secrets key art: the game's cast of eight characters and a parrot in a sunny tropical town, with the game logo](/assets/images/projects/sunset-secrets-image-1.jpg)
 
 _All images are used for learning purposes from open sources, all copyrights for the images belong to their respective authors._
 

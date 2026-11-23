@@ -1,9 +1,14 @@
 ---
 title: "Sparkle Inside"
-excerpt: "A 2-days hackathon visual novel project in philosophical drama genre"
+excerpt: "A 2-day hackathon visual novel project in philosophical drama genre"
+description: "Sparkle Inside is a philosophical drama visual novel made in a two-day hackathon. Taisiia Smirnova produced and wrote it, managing a team of seven across five time zones."
+official_url: "https://taisiia.itch.io/sparkle-inside"
+date: 2023-03-09
+last_modified_at: 2026-11-17
+order: 7
 header:
-  overlay_image: /assets/images/projects/sparkle-inside.png
-  teaser: /assets/images/projects/sparkle-inside.png
+  overlay_image: /assets/images/projects/sparkle-inside.jpg
+  teaser: /assets/images/projects/sparkle-inside.jpg
 sidebar:
   - title: "Role"
     text: "Producer, game writer"
@@ -13,7 +18,7 @@ sidebar:
     text: "Visual novel"
 ---
 
-[Sparkle Inside](https://taisiia.itch.io/sparkle-inside){:target="\_blank"} is a hackathon project that was created in just two days by a team of non-professionals. As the producer and screenwriter of the project, I had the privilege of managing a diverse team of seven individuals from five different time zones, which was an incredible challenge in itself.
+[Sparkle Inside](https://taisiia.itch.io/sparkle-inside){:target="_blank"} is a hackathon project that was created in just two days by a team of non-professionals. As the producer and screenwriter of the project, I had the privilege of managing a diverse team of seven individuals from five different time zones, which was an incredible challenge in itself.
 
 Despite the limitations, I am proud of what we accomplished, and I believe it serves as a testament to the power of hard work and dedication.
 
@@ -25,6 +30,6 @@ An ethereal creature wakes up locked inside a ruined house that she cannot even 
 
 As she collects the memories, she realizes that she is a Sparkle - someone's creative force, long forgotten and locked away inside them. She must decide whether to accept her fate, the choice of the person who locked her away to alleviate their pain, or try to break free despite everything, finding her only way out - the way through.
 
-![image-left](/assets/images/projects/sparkle-inside-image-1.png)
-
 Here is the dialogue structure for the project.
+
+![Flowchart of the Sparkle Inside dialogue structure: scenes branching into choices and converging towards the endings](/assets/images/projects/sparkle-inside-image-1.png){: loading="lazy"}

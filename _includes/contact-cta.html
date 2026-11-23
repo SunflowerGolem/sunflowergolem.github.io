@@ -1,0 +1,12 @@
+{% assign f = site.data.fiverr %}
+<aside class="contact-cta cta-card">
+  <div class="cta-card__text">
+    <p class="cta-card__title">{{ page.cta_headline | default: "Need a story for your game?" }}</p>
+    <p class="cta-card__lead">Quests, characters, lore and dialogue, written by me and never AI-generated.</p>
+    <p class="cta-card__rating"><span aria-hidden="true">★★★★★</span> <strong>{{ f.rating }}</strong> · <a href="{{ site.fiverr_profile_url }}" class="reviews-link" target="_blank" rel="noopener">{{ f.review_count }} reviews</a> on Fiverr</p>
+  </div>
+  <div class="cta-card__actions">
+    <a href="/services/#studios" class="pill pill--dark"><i class="fas fa-handshake" aria-hidden="true"></i> Let&rsquo;s work together</a>
+    <a href="{{ site.fiverr_gig_url }}" class="cta-card__alt" target="_blank" rel="noopener">or order a smaller piece on Fiverr</a>
+  </div>
+</aside>

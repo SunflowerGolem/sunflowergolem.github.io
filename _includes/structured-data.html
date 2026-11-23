@@ -1,0 +1,180 @@
+{%- comment -%}
+  Structured data (JSON-LD) for every page except the home page, which gets
+  WebSite + ProfilePage + Person from _includes/schema.html.
+
+  - Games and Writing Portfolio list pages: CollectionPage with an ItemList of the entries.
+  - Sample and game pages: WebPage + the work itself (CreativeWork, or VideoGame for games).
+    A game page can set "schema_type" (default VideoGame) and "official_url"
+    (store or official page, used as sameAs so search engines connect it to the real game).
+  - Pages with "service: true" (Hire Me): WebPage plus a Service.
+  - Other pages: WebPage (ContactPage for /contact/).
+{%- endcomment -%}
+{%- assign sd_person_id = "/#person" | absolute_url -%}
+{%- assign sd_site_id = "/#website" | absolute_url -%}
+{%- assign sd_url = page.url | absolute_url -%}
+{%- assign sd_page_id = sd_url | append: "#webpage" -%}
+{%- assign sd_desc = page.description | default: page.excerpt | default: site.description | strip_html | strip -%}
+{%- assign sd_home = "/" | absolute_url -%}
+
+{%- if page.layout == "collection-cta" -%}
+{%- assign sd_docs = site[page.collection] | sort: "order" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ sd_home | jsonify }} },
+        { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }} }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": {{ sd_page_id | jsonify }},
+      "url": {{ sd_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ sd_desc | jsonify }},
+      "inLanguage": "en",
+      "isPartOf": { "@id": {{ sd_site_id | jsonify }} },
+      "about": { "@id": {{ sd_person_id | jsonify }} },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ sd_docs.size }},
+        "itemListElement": [
+          {%- for d in sd_docs %}
+          { "@type": "ListItem", "position": {{ forloop.index }}, "name": {{ d.title | jsonify }}, "url": {{ d.url | absolute_url | jsonify }} }{% unless forloop.last %},{% endunless %}
+          {%- endfor %}
+        ]
+      }
+    }
+  ]
+}
+</script>
+
+{%- elsif page.collection == "writing-portfolio" or page.collection == "published-games" -%}
+{%- if page.collection == "published-games" -%}
+  {%- assign sd_parent = "Games & Projects" -%}
+  {%- assign sd_type = page.schema_type | default: "VideoGame" -%}
+{%- else -%}
+  {%- assign sd_parent = "Writing Portfolio" -%}
+  {%- assign sd_type = "CreativeWork" -%}
+{%- endif -%}
+{%- assign sd_parent_url = "/" | append: page.collection | append: "/" | absolute_url -%}
+{%- assign sd_work_id = sd_url | append: "#work" -%}
+{%- assign sd_image = page.header.teaser | default: page.header.overlay_image -%}
+{%- assign sd_publisher = page.sidebar | where: "title", "Publisher" | first -%}
+{%- assign sd_developer = page.sidebar | where: "title", "Developer" | first -%}
+{%- unless sd_developer -%}{%- assign sd_developer = page.sidebar | where: "title", "Studio" | first -%}{%- endunless -%}
+{%- assign sd_platform = page.sidebar | where: "title", "Platform" | first -%}
+{%- assign sd_genre = page.sidebar | where: "title", "Story genre" | first -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ sd_home | jsonify }} },
+        { "@type": "ListItem", "position": 2, "name": {{ sd_parent | jsonify }}, "item": {{ sd_parent_url | jsonify }} },
+        { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }} }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ sd_page_id | jsonify }},
+      "url": {{ sd_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ sd_desc | jsonify }},
+      "inLanguage": "en",
+      {%- if page.last_modified_at %}
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      {%- endif %}
+      "isPartOf": { "@id": {{ sd_site_id | jsonify }} },
+      "author": { "@id": {{ sd_person_id | jsonify }} },
+      "mainEntity": { "@id": {{ sd_work_id | jsonify }} }
+    },
+    {
+      "@type": {{ sd_type | jsonify }},
+      "@id": {{ sd_work_id | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "url": {{ sd_url | jsonify }},
+      "description": {{ sd_desc | jsonify }},
+      {%- if sd_image %}
+      "image": {{ sd_image | absolute_url | jsonify }},
+      {%- endif %}
+      {%- if page.official_url %}
+      "sameAs": {{ page.official_url | jsonify }},
+      {%- endif %}
+      {%- if sd_publisher %}
+      "publisher": { "@type": "Organization", "name": {{ sd_publisher.text | jsonify }} },
+      {%- endif %}
+      {%- if sd_developer %}
+      "creator": { "@type": "Organization", "name": {{ sd_developer.text | jsonify }} },
+      {%- endif %}
+      {%- if sd_platform and sd_type == "VideoGame" %}
+      "gamePlatform": {{ sd_platform.text | jsonify }},
+      {%- endif %}
+      "inLanguage": "en",
+      {%- if page.collection == "writing-portfolio" %}
+      "genre": "Game writing sample",
+      {%- if page.date %}
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      {%- endif %}
+      {%- if page.last_modified_at %}
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      {%- endif %}
+      "author": { "@id": {{ sd_person_id | jsonify }}, "@type": "Person", "name": {{ site.author.name | jsonify }}, "url": {{ sd_home | jsonify }} }
+      {%- else %}
+      {%- if sd_genre %}
+      "genre": {{ sd_genre.text | jsonify }},
+      {%- endif %}
+      "contributor": { "@id": {{ sd_person_id | jsonify }}, "@type": "Person", "name": {{ site.author.name | jsonify }}, "url": {{ sd_home | jsonify }} }
+      {%- endif %}
+    }
+  ]
+}
+</script>
+
+{%- elsif page.url != "/" and page.sitemap != false -%}
+{%- if page.url == "/contact/" -%}{%- assign sd_type = "ContactPage" -%}{%- else -%}{%- assign sd_type = "WebPage" -%}{%- endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ sd_home | jsonify }} },
+        { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }} }
+      ]
+    },
+    {
+      "@type": {{ sd_type | jsonify }},
+      "@id": {{ sd_page_id | jsonify }},
+      "url": {{ sd_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ sd_desc | jsonify }},
+      "inLanguage": "en",
+      {%- if page.last_modified_at %}
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      {%- endif %}
+      "isPartOf": { "@id": {{ sd_site_id | jsonify }} },
+      "about": { "@id": {{ sd_person_id | jsonify }} }
+    }
+    {%- if page.service %},
+    {
+      "@type": "Service",
+      "@id": {{ sd_url | append: "#service" | jsonify }},
+      "name": "Game writing and narrative design",
+      "serviceType": "Game writing and narrative design",
+      "description": {{ sd_desc | jsonify }},
+      "url": {{ sd_url | jsonify }},
+      "areaServed": "Worldwide",
+      "provider": { "@id": {{ sd_person_id | jsonify }}, "@type": "Person", "name": {{ site.author.name | jsonify }}, "url": {{ sd_home | jsonify }} }
+    }
+    {%- endif %}
+  ]
+}
+</script>
+{%- endif -%}
